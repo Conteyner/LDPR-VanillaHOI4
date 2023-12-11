@@ -11,9 +11,10 @@ state={
 		buildings = {
 			infrastructure = 3 #was: 5
 		}
-		victory_points = {
-			6474 10
-		}
+		victory_points = {6474 25}
+		victory_points = {6420 10}
+		victory_points = {3421 2}
+		victory_points = {6776 3}
 		add_core_of = SOV
 		add_core_of = UKR
 		add_core_of = DPR
