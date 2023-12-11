@@ -1,0 +1,27 @@
+# oob = ""
+
+capital = 227
+
+set_research_slots = 2
+
+set_stability = 0.45
+
+set_war_support = 0.10
+
+add_political_power = 100
+
+set_convoys = 11
+
+set_popularities = {
+	democratic = 53
+	communism = 27
+	fascism = 5
+	neutrality = 15
+}
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1932.07.11"
+	election_frequency = 48
+	elections_allowed = Yes
+}
