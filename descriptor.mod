@@ -13,7 +13,8 @@ tags={
 name="Empire of DPR/LPR DEV"
 
 replace_path="history/countries"
-replace_path="history/states"
 replace_path="history/units"
+replace_path="map/strategicregions"
+
 
 supported_version="1.13.5"
