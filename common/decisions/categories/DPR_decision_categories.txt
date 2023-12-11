@@ -1,0 +1,12 @@
+DPR_GROW = {
+	priority = 1
+	icon = #
+	picture = #
+	allowed = {
+		original_tag = DPR
+	}
+	visible = {
+		original_tag = DPR
+	}
+	
+}

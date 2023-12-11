@@ -1,0 +1,34 @@
+DPR_GROW = {
+	DPR_Rename_Artem = {
+		icon = generic_operation
+		available = { original_tag = DPR }
+		cost = 25
+		visible = {
+			original_tag = DPR
+		}
+		highlight_states = {
+			highlight_provinces = {
+				3479
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		remove_effect = { add_command_power = 50 }
+	}
+	DPR_Rename_Novoazivsk = {
+		icon = generic_operation
+		available = { original_tag = DPR }
+		cost = 25
+		visible = {
+			original_tag = DPR
+		}
+		highlight_states = {
+			highlight_provinces = {
+				3421
+			}
+			highlight_color_while_active = 5
+			highlight_color_before_active = 2
+		}
+		remove_effect = { add_command_power = 50 }
+	}
+}
