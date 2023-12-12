@@ -1,0 +1,208 @@
+#  2 Дивизии ТРО
+# 9 полк морской пехоты
+# 110 мотострелковая бригада , 5 мотострелковая бригада, 3 мотострелковая бригада , 100 отдельная гвардейская мотострелковая бригада
+# Дивизия "Smert"
+# 1-ая отдельная гвардескай мотострелковая Славянская Бригада
+# 1 Дивизия OBTF Kaskad
+# Батальон Викинг
+# Батальон Семеновский
+# Батальон Хан
+# Пехотная бригада Восток
+# Батальон Сомали
+# Батальон Пятнашка
+# Батальон Дизели
+
+division_template = {
+	name = "Militia"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+	}
+	priority = 0
+}
+
+division_template = { 
+	name = "Infantry"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	support = {  
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+	priority = 1
+}
+
+division_template = { 
+	name = "Infantry batalion"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	support = {  
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+	priority = 2
+}
+
+division_template = { 
+	name = "Motostrelkovaya Diviziya"
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 0 y = 3 }
+	}
+	support = {  
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+	priority = 3
+}
+
+division_template = { 
+	name = "Marines"
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 0 y = 2 }
+		marine = { x = 0 y = 3 }
+	}
+	support = {  
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+	priority = 4
+}
+
+
+units = {
+	division = { 
+		name = "1-ya Dyviziya TRO"
+		location = 6776
+		division_template = "Militia"
+		start_equipment_factor = 1
+		start_experience_factor = 0.05
+	}
+	division = { 
+		name = "2-ya Dyviziya TRO"
+		location = 3449
+		division_template = "Militia"
+		start_equipment_factor = 1
+		start_experience_factor = 0.05
+	}
+	division = { 
+		name = "9-y polk Morskoy Pechoty"
+		location = 6420
+		division_template = "Marines"
+		start_equipment_factor = 1
+		start_experience_factor = 0.5
+	}
+	division = { 
+		name = "110-ya gvardeyskaya motostrelkvaya brigada"
+		location = 3466
+		division_template = "Motostrelkovaya Diviziya"
+		start_equipment_factor = 1
+		start_experience_factor = 1
+	}
+	division = { 
+		name = "5-ya gvardeyskaya motostrelkvaya brigada"
+		location = 502
+		division_template = "Motostrelkovaya Diviziya"
+		start_equipment_factor = 1
+		start_experience_factor = 1
+	}
+	division = { 
+		name = "3-ya gvardeyskaya motostrelkvaya brigada"
+		location = 3479
+		division_template = "Motostrelkovaya Diviziya"
+		start_equipment_factor = 1
+		start_experience_factor = 1
+	}
+	division = { 
+		name = "1-ya otdelnaya gvardeyskaya motostrelkvaya Slavyanskaya brigada"
+		location = 3479
+		division_template = "Motostrelkovaya Diviziya"
+		start_equipment_factor = 1
+		start_experience_factor = 1
+	}
+	division = { 
+		name = "100-ya gvardeyskaya motostrelkvaya brigada"
+		location = 3421
+		division_template = "Motostrelkovaya Diviziya"
+		start_equipment_factor = 1
+		start_experience_factor = 1
+	}
+	division = { 
+		name = "OBTF 'Kaskad'"
+		location = 6493
+		division_template = "Infantry"
+		start_equipment_factor = 1
+		start_experience_factor = 1
+	}
+	division = { 
+		name = "Dyvyzia Smert"
+		location = 6474
+		division_template = "Infantry"
+		start_equipment_factor = 1
+		start_experience_factor = 1
+	}
+	division = { 
+		name = "Brigada Vostok"
+		location = 3491
+		division_template = "Infantry"
+		start_equipment_factor = 1
+		start_experience_factor = 1
+	}
+	division = { 
+		name = "Batalion Viking"
+		location = 6474
+		division_template = "Infantry batalion"
+		start_equipment_factor = 1
+		start_experience_factor = 1
+	}
+	division = { 
+		name = "Batalion Semenovsky"
+		location = 6474
+		division_template = "Infantry batalion"
+		start_equipment_factor = 1
+		start_experience_factor = 1
+	}
+	division = { 
+		name = "Batalion Khan"
+		location = 6474
+		division_template = "Infantry batalion"
+		start_equipment_factor = 1
+		start_experience_factor = 0.6
+	}
+	division = { 
+		name = "Batalion Somali"
+		location = 6474
+		division_template = "Infantry batalion"
+		start_equipment_factor = 1
+		start_experience_factor = 0.6
+	}
+	division = { 
+		name = "Batalion Pyatnashka"
+		location = 3479
+		division_template = "Infantry batalion"
+		start_equipment_factor = 1
+		start_experience_factor = 0.6
+	}
+	division = { 
+		name = "Batalion Dizeli"
+		location = 3479
+		division_template = "Infantry batalion"
+		start_equipment_factor = 1
+		start_experience_factor = 0.6
+	}
+}

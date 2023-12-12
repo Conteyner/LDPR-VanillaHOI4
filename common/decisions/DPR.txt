@@ -13,7 +13,10 @@ DPR_GROW = {
 			highlight_color_while_active = 3
 			highlight_color_before_active = 2
 		}
-		remove_effect = { add_command_power = 50 }
+		remove_effect = { 
+			set_province_name = { id = 3479 name = VICTORY_POINTS_3479_Bakhmut }
+		 }
+		 fire_only_once = yes
 	}
 	DPR_Rename_Novoazivsk = {
 		icon = generic_operation
@@ -26,9 +29,148 @@ DPR_GROW = {
 			highlight_provinces = {
 				3421
 			}
-			highlight_color_while_active = 5
+			highlight_color_while_active = 5  
 			highlight_color_before_active = 2
 		}
-		remove_effect = { add_command_power = 50 }
+		remove_effect = { 
+			set_province_name = { id = 3421 name = VICTORY_POINTS_3421_Novoazovsk }
+		 }
+		 fire_only_once = yes
 	}
+	DPR_Build_Azovstal = {
+		available = { original_tag = DPR }
+		cost = 25
+		visible = {
+			original_tag = DPR
+		}
+		highlight_states = {
+			highlight_provinces = {
+				6420
+			}
+			highlight_color_while_active = 5  
+			highlight_color_before_active = 2
+		}
+		days_remove = 70
+		remove_effect = { 
+			227 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+				}
+				add_resource = {
+					type = steel
+					amount = 11
+				}
+			}
+		 }
+		 fire_only_once = yes
+	}
+	DPR_PVO_Donetska = {
+		available = { original_tag = DPR }
+		cost = 25
+		visible = {
+			original_tag = DPR
+		}
+		highlight_states = {
+			highlight_provinces = {
+					6474
+			}
+			highlight_color_while_active = 5  
+			highlight_color_before_active = 2
+		}
+		days_remove = 70
+		remove_effect = { 
+			227 = {
+				add_building_construction = {
+					type = anti_air_building
+					level = 1
+				}
+			}
+		 }
+		 fire_only_once = yes
+	}
+	DPR_Mariupol_port = {
+		available = { original_tag = DPR }
+		cost = 25
+		visible = {
+			original_tag = DPR
+		}
+		highlight_states = {
+			highlight_provinces = {
+					6420
+			}
+			highlight_color_while_active = 5  
+			highlight_color_before_active = 2
+		}
+		days_remove = 25
+		remove_effect = { 
+			227 = {
+				add_building_construction = {
+					province = 6420
+					type = naval_base 
+					level = 4
+				}
+			}
+		 }
+		 fire_only_once = yes
+	}
+	DPR_Fortify_Lyman = {
+		available = { original_tag = DPR }
+		cost = 25
+		visible = {
+			original_tag = DPR
+		}
+		highlight_states = {
+			highlight_provinces = {
+					6420
+			}
+			highlight_color_while_active = 5  
+			highlight_color_before_active = 2
+		}
+		days_remove = 10
+		remove_effect = { 
+			227 = {
+				add_building_construction = {
+					province = 3491
+					type = bunker 
+					level = 3
+				}
+			}
+		 }
+		 fire_only_once = yes
+	}
+	DPR_OIL = {
+	available = { original_tag = DPR }
+	cost = 25
+	visible = {
+		original_tag = DPR
+	}
+	days_remove = 10
+	remove_effect = {
+		227 = {
+	add_resource = {
+		type = oil
+		amount = 28
+	}
+}
+}
+	fire_only_once = yes
+}
+DPR_Durex = {
+	available = { original_tag = DPR }
+	cost = 25
+	visible = {
+		original_tag = DPR
+	}
+	days_remove = 10
+	remove_effect = {
+		227 = {
+	add_resource = {
+		type = rubber
+		amount = 14
+	}
+}
+}
+	fire_only_once = yes
+}
 }

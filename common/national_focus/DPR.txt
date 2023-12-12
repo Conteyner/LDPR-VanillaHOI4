@@ -1,0 +1,23 @@
+focus_tree = {
+	id = DPR_tree
+	continuous_focus_position = { x = 190 y = 2920 } 
+	initial_show_position = {focus = DPR_Our_Republic}
+	default = no
+	focus = { 
+		id = DPR_Our_Republic
+		icon = GFX_BLR_appeal_to_people
+		available = {
+			always = yes
+		}
+		cost = 1	
+		completion_reward = {
+			add_ideas = Our_Army
+			add_ideas = Young_country
+		}
+		x = 15
+		y = 0
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+}
