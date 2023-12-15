@@ -122,7 +122,7 @@ DPR_GROW = {
 		}
 		highlight_states = {
 			highlight_provinces = {
-					6420
+					3491
 			}
 			highlight_color_while_active = 5  
 			highlight_color_before_active = 2

@@ -1,7 +1,5 @@
 DPR_GROW = {
 	priority = 1
-	icon = GFX_idea_eng_for_the_good_of_the_revolution
-	picture = GFX_idea_eng_for_the_good_of_the_revolution
 	allowed = {
 		original_tag = DPR
 	}
