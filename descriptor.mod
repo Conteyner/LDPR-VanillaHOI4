@@ -10,7 +10,7 @@ tags={
 	"Alternative History"
 
 }
-name="Empire of DPR/LPR DEV"
+name="Donbass DEV"
 
 replace_path="history/countries"
 replace_path="history/units"
