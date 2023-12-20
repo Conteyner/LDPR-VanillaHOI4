@@ -248,6 +248,213 @@ focus_tree = {
 		}
 	 }
 
+	 
+	 focus = { 
+		id = DPR_SMO
+		icon = GFX_BLR_appeal_to_people
+		prerequisite = { focus = DPR_LPRSudba }
+		mutually_exclusive = {
+			focus = DPR_Invasion
+			focus = DPR_War
+
+		}
+		available = {
+			always = yes
+		}
+		cost = 1
+		completion_reward = {
+
+		}
+		x = 11
+		y = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 focus = { 
+		id = DPR_Invasion
+		icon = GFX_BLR_appeal_to_people
+		prerequisite = { focus = DPR_LPRSudba }
+		mutually_exclusive = {
+			focus = DPR_SMO
+			focus = DPR_War
+
+		}
+		available = {
+			always = yes
+		}
+		cost = 1
+		completion_reward = {
+
+		}
+		x = 13
+		y = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 focus = { 
+		id = DPR_War
+		icon = GFX_BLR_appeal_to_people
+		prerequisite = { focus = DPR_LPRSudba }
+		mutually_exclusive = {
+			focus = DPR_SMO
+			focus = DPR_Invasion
+
+		}
+		available = {
+			always = yes
+		}
+		cost = 1
+		completion_reward = {
+
+		}
+		x = 15
+		y = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 focus = { 
+		id = DPR_SudbaUSSR
+		icon = GFX_BLR_appeal_to_people
+		
+		prerequisite = {
+	 
+			focus =  DPR_LPRSudba
+	}
+
+	available = {
+	always = yes
+}
+	
+	
+		cost = 1
+		completion_reward = {
+
+		}
+		x = 13
+		y = 9
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 focus = { 
+		id = DPR_FirstRazdelUSSR
+		icon = GFX_BLR_appeal_to_people
+		prerequisite = { focus = DPR_SudbaUSSR }
+		mutually_exclusive = {
+			focus = DPR_MarshSpravedlivosti
+		}
+		available = {
+			always = yes
+		}
+		cost = 1
+		completion_reward = {
+
+		}
+		x = 11
+		y = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 
+	 focus = { 
+		id = DPR_MarshSpravedlivosti
+		icon = GFX_BLR_appeal_to_people
+		prerequisite = { focus = DPR_SudbaUSSR }
+		mutually_exclusive = {
+			focus = DPR_FirstRazdelUSSR
+		}
+		available = {
+			always = yes
+		}
+		cost = 1
+		completion_reward = {
+
+		}
+		x = 15
+		y = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 focus = { 
+		id = DPR_TysachaletniyDNR
+		icon = GFX_BLR_appeal_to_people
+		prerequisite = {
+			focus = DPR_SudbaUSSR
+
+		}
+		available = {
+			always = yes
+		}
+
+	
+		available = {
+			always = yes
+		}
+		cost = 1
+		completion_reward = {
+
+		}
+		x = 13
+		y = 12
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 focus = { 
+		id = DPR_GreatFurer
+		icon = GFX_BLR_appeal_to_people
+		prerequisite = { focus = DPR_TysachaletniyDNR }
+		mutually_exclusive = {
+			focus = DPR_KavaiStrelkov
+		}
+		available = {
+			always = yes
+		}
+		cost = 1
+		completion_reward = {
+
+		}
+		x = 11
+		y = 13
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 
+	 focus = { 
+		id = DPR_KavaiStrelkov
+		icon = GFX_BLR_appeal_to_people
+		prerequisite = { focus = DPR_TysachaletniyDNR }
+		mutually_exclusive = {
+			focus = DPR_GreatFurer
+		}
+		available = {
+			always = yes
+		}
+		cost = 1
+		completion_reward = {
+
+		}
+		x = 15
+		y = 13
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
 	 focus = { 
 		id = DPR_Donmak
 		icon = GFX_BLR_appeal_to_people
