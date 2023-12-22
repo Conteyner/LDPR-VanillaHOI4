@@ -8,7 +8,7 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		cost = 1	
+		cost = 2
 		completion_reward = {
 			add_ideas = Our_Army
 			add_ideas = Young_country
@@ -35,8 +35,436 @@ focus_tree = {
 		completion_reward = {
 
 		}
-		x = 20
+		x = 22
 		y = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 focus = { 
+		id = DPR_MMM
+		icon = GFX_BLR_appeal_to_people
+		prerequisite = { focus = DPR_Save_Dushilin }
+		available = {
+			always = yes
+		}
+		cost = 2
+		completion_reward = {
+
+		}
+		x = 20
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 focus = { 
+		id = DPR_Invite_Mavrodi
+		icon = GFX_BLR_appeal_to_people
+		prerequisite = { focus = DPR_MMM }
+		available = {
+			always = yes
+		}
+		cost = 2
+		completion_reward = {
+
+		}
+		x = 20
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 focus = { 
+		id = DPR_Donbassradio
+		icon = GFX_BLR_appeal_to_people
+		prerequisite = { focus = DPR_Save_Dushilin }
+		available = {
+			always = yes
+		}
+		cost = 2
+		completion_reward = {
+
+		}
+		x = 22
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 focus = { 
+		id = RasplodVoenkorov
+		icon = GFX_BLR_appeal_to_people
+		prerequisite = { focus = DPR_Donbassradio }
+		available = {
+			always = yes
+		}
+		cost = 2
+		completion_reward = {
+
+		}
+		x = 22
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 focus = { 
+		id = DPR_LPRotnosheniapolovie
+		icon = GFX_BLR_appeal_to_people
+		prerequisite = { focus = DPR_Save_Dushilin }
+		available = {
+			always = yes
+		}
+		cost = 2
+		completion_reward = {
+
+		}
+		x = 24
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 focus = { 
+		id = DPR_planodnirazvitie
+		icon = GFX_BLR_appeal_to_people
+		prerequisite = { focus = DPR_LPRotnosheniapolovie }
+		available = {
+			always = yes
+		}
+		cost = 2	
+		completion_reward = {
+
+		}
+		x = 24
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 focus = { 
+		id = DPR_Allies
+		icon = GFX_BLR_appeal_to_people
+		prerequisite = { 
+		focus = RasplodVoenkorov
+		focus = DPR_planodnirazvitie
+		focus = DPR_Invite_Mavrodi
+		}
+		mutually_exclusive = {
+			focus = DPR_OdinokiySlonyara
+			focus = DPR_hoholaction
+		}
+		available = {
+			always = yes
+		}
+		cost = 2
+		completion_reward = {
+
+		}
+		x = 20
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 focus = { 
+		id = DPR_FrancePanzers
+		icon = GFX_BLR_appeal_to_people
+		prerequisite = { 
+		focus = DPR_Allies
+		}
+		available = {
+			always = yes
+		}
+		cost = 2	
+		completion_reward = {
+
+		}
+		x = 20
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 focus = { 
+		id = DPR_EngPanzers
+		icon = GFX_BLR_appeal_to_people
+		prerequisite = { 
+		focus = DPR_FrancePanzers
+		}
+		available = {
+			always = yes
+		}
+		cost = 2
+		completion_reward = {
+
+		}
+		x = 20
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+	 focus = { 
+		id = DPR_AmeryCool
+		icon = GFX_BLR_appeal_to_people
+		prerequisite = { 
+		focus = DPR_EngPanzers
+		}
+		available = {
+			always = yes
+		}
+		cost = 2
+		completion_reward = {
+
+		}
+		x = 18
+		y = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 focus = { 
+		id = DPR_MishaBey
+		icon = GFX_BLR_appeal_to_people
+		prerequisite = { 
+		focus = DPR_EngPanzers
+		}
+		available = {
+			always = yes
+		}
+		cost = 2
+		completion_reward = {
+
+		}
+		x = 20
+		y = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+
+	 focus = { 
+		id = DPR_FemboyStalin
+		icon = GFX_BLR_appeal_to_people
+		prerequisite = { 
+		focus = DPR_MishaBey
+		focus = DPR_AmeryCool
+		}
+		available = {
+			always = yes
+		}
+		cost = 2	
+		completion_reward = {
+
+		}
+		x = 20
+		y = 9
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 focus = { 
+		id = DPR_FemboyHitler
+		icon = GFX_BLR_appeal_to_people
+		prerequisite = { 
+		focus = DPR_FemboyStalin
+		}
+		available = {
+			always = yes
+		}
+		cost = 2
+		completion_reward = {
+
+		}
+		x = 20
+		y = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+
+	 focus = { 
+		id = DPR_OdinokiySlonyara
+		icon = GFX_BLR_appeal_to_people
+		prerequisite = { 
+			focus = RasplodVoenkorov
+			focus = DPR_planodnirazvitie
+			focus = DPR_Invite_Mavrodi
+			}
+			mutually_exclusive = {
+				focus = DPR_Allies
+				focus = DPR_hoholaction
+			}
+		available = {
+			always = yes
+		}
+		cost = 2	
+		completion_reward = {
+
+		}
+		x = 22
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 focus = { 
+		id = DPR_LPRintegration
+		icon = GFX_BLR_appeal_to_people
+		prerequisite = { 
+			focus = DPR_OdinokiySlonyara
+			}
+		available = {
+			always = yes
+		}
+		cost = 2
+		completion_reward = {
+
+		}
+		x = 22
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 focus = { 
+		id = DPR_Prezervativy_Luhansk
+		icon = GFX_BLR_appeal_to_people
+		prerequisite = { 
+			focus = DPR_LPRintegration
+			}
+		available = {
+			always = yes
+		}
+		cost = 2	
+		completion_reward = {
+
+		}
+		x = 22
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+	 focus = { 
+		id = DPR_Soya
+		icon = GFX_BLR_appeal_to_people
+		prerequisite = { 
+			focus = DPR_Prezervativy_Luhansk
+			}
+		available = {
+			always = yes
+		}
+		cost = 2	
+		completion_reward = {
+
+		}
+		x = 22
+		y = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 focus = { 
+		id = DPR_MaksimkakatZ
+		icon = GFX_BLR_appeal_to_people
+		prerequisite = { 
+			focus = DPR_Soya
+			}
+		available = {
+			always = yes
+		}
+		cost = 2	
+		completion_reward = {
+
+		}
+		x = 24
+		y = 9
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 focus = { 
+		id = DPR_Pirogy
+		icon = GFX_BLR_appeal_to_people
+		prerequisite = { 
+			focus = DPR_MaksimkakatZ
+			}
+		available = {
+			always = yes
+		}
+		cost = 2
+		completion_reward = {
+
+		}
+		x = 24
+		y = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+
+	 focus = { 
+		id = DPR_hoholaction
+		icon = GFX_BLR_appeal_to_people
+		prerequisite = { 
+			focus = RasplodVoenkorov
+			focus = DPR_planodnirazvitie
+			focus = DPR_Invite_Mavrodi
+			}
+			mutually_exclusive = {
+				focus = DPR_Allies
+				focus = DPR_OdinokiySlonyara
+			}
+		available = {
+			always = yes
+		}
+		cost = 2
+		completion_reward = {
+
+		}
+		x = 18
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 focus = { 
+		id = DPR_Xry
+		icon = GFX_BLR_appeal_to_people
+		prerequisite = { 
+			focus = DPR_hoholaction
+			}
+		available = {
+			always = yes
+		}
+		cost = 2	
+		completion_reward = {
+
+		}
+		x = 18
+		y = 6
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -126,7 +554,7 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		cost = 1
+		cost = 2
 		completion_reward = {
 
 		}
@@ -144,7 +572,7 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		cost = 1
+		cost = 2
 		completion_reward = {
 
 		}
@@ -162,7 +590,7 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		cost = 1
+		cost = 2
 		completion_reward = {
 
 		}
@@ -180,7 +608,7 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		cost = 1
+		cost = 2
 		completion_reward = {
 
 		}
@@ -198,7 +626,7 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		cost = 1
+		cost = 2
 		completion_reward = {
 
 		}
@@ -216,7 +644,7 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		cost = 1
+		cost = 2
 		completion_reward = {
 
 		}
@@ -237,7 +665,7 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		cost = 1
+		cost = 2
 		completion_reward = {
 
 		}
@@ -261,7 +689,7 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		cost = 1
+		cost = 2
 		completion_reward = {
 
 		}
@@ -284,7 +712,7 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		cost = 1
+		cost = 2
 		completion_reward = {
 
 		}
@@ -307,7 +735,7 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		cost = 1
+		cost = 2
 		completion_reward = {
 
 		}
@@ -332,7 +760,7 @@ focus_tree = {
 }
 	
 	
-		cost = 1
+		cost = 2
 		completion_reward = {
 
 		}
@@ -353,7 +781,7 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		cost = 1
+		cost = 2
 		completion_reward = {
 
 		}
@@ -375,7 +803,7 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		cost = 1
+		cost = 2
 		completion_reward = {
 
 		}
@@ -401,7 +829,7 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		cost = 1
+		cost = 2
 		completion_reward = {
 
 		}
@@ -422,7 +850,7 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		cost = 1
+		cost = 2
 		completion_reward = {
 
 		}
@@ -444,7 +872,7 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		cost = 1
+		cost = 2
 		completion_reward = {
 
 		}
@@ -462,7 +890,7 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		cost = 1
+		cost = 2
 		completion_reward = {
 
 		}
@@ -480,7 +908,7 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		cost = 1
+		cost = 2
 		completion_reward = {
 
 		}
@@ -498,7 +926,7 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		cost = 1
+		cost = 2
 		completion_reward = {
 
 		}
@@ -760,6 +1188,396 @@ focus_tree = {
 		}
 		x = 35
 		y = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 focus = { 
+		id = DPR_Dedekomynizacia
+		icon = GFX_BLR_appeal_to_people
+		prerequisite = { focus = DPR_Sovki }
+		available = {
+			always = yes
+		}
+		cost = 0.8	
+		completion_reward = {
+
+		}
+		x = 33
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 focus = { 
+		id = DPR_Provesti_chistki
+		icon = GFX_BLR_appeal_to_people
+		prerequisite = { focus = DPR_Dedekomynizacia }
+		available = {
+			always = yes
+		}
+		cost = 0.8	
+		completion_reward = {
+
+		}
+		x = 33
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 focus = { 
+		id = DPR_Bytilizacia
+		icon = GFX_BLR_appeal_to_people
+		prerequisite = { focus = DPR_Provesti_chistki }
+		available = {
+			always = yes
+		}
+		cost = 0.8	
+		completion_reward = {
+
+		}
+		x = 33
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 focus = { 
+		id = DPR_Kovbassa
+		icon = GFX_BLR_appeal_to_people
+		prerequisite = { focus = DPR_Sovki }
+		available = {
+			always = yes
+		}
+		cost = 0.8	
+		completion_reward = {
+
+		}
+		x = 35
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 focus = { 
+		id = DPR_Bazirovanniyfilm
+		icon = GFX_BLR_appeal_to_people
+		prerequisite = { focus = DPR_Sovki }
+		available = {
+			always = yes
+		}
+		cost = 0.8	
+		completion_reward = {
+
+		}
+		x = 35
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 focus = { 
+		id = DPR_slonacyaknigi
+		icon = GFX_BLR_appeal_to_people
+		prerequisite = { focus = DPR_Bazirovanniyfilm }
+		available = {
+			always = yes
+		}
+		cost = 0.8	
+		completion_reward = {
+
+		}
+		x = 35
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 focus = { 
+		id = DPR_PolnayaIntegraciya
+		icon = GFX_BLR_appeal_to_people
+		prerequisite = { focus = DPR_MavzoleyGriba focus = DPR_slonacyaknigi focus = DPR_Bytilizacia }
+		mutually_exclusive = {
+			focus = DPR_Avtonomiya
+			focus = DPR_ZafrendzonitUSSR
+		}
+		available = {
+			always = yes
+		}
+		cost = 0.8	
+		completion_reward = {
+
+		}
+		x = 33
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 focus = { 
+		id = DPR_Avtonomiya
+		icon = GFX_BLR_appeal_to_people
+		prerequisite = { focus = DPR_MavzoleyGriba focus = DPR_slonacyaknigi focus = DPR_Bytilizacia }
+		mutually_exclusive = {
+			focus = DPR_PolnayaIntegraciya
+			focus = DPR_ZafrendzonitUSSR
+		}
+		available = {
+			always = yes
+		}
+		cost = 0.8	
+		completion_reward = {
+
+		}
+		x = 35
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 focus = { 
+		id = DPR_ZafrendzonitUSSR
+		icon = GFX_BLR_appeal_to_people
+		prerequisite = { focus = DPR_MavzoleyGriba focus = DPR_slonacyaknigi focus = DPR_Bytilizacia }
+		mutually_exclusive = {
+			focus = DPR_PolnayaIntegraciya
+			focus = DPR_Avtonomiya
+		}
+		available = {
+			always = yes
+		}
+		cost = 0.8	
+		completion_reward = {
+
+		}
+		x = 37
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 focus = { 
+		id = DPR_Mypostrioimsvoyusssr
+		icon = GFX_BLR_appeal_to_people
+		prerequisite = { focus = DPR_ZafrendzonitUSSR  }
+		available = {
+			always = yes
+		}
+		cost = 0.8	
+		completion_reward = {
+
+		}
+		x = 37
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 focus = { 
+		id = DPR_with_bleckjek
+		icon = GFX_BLR_appeal_to_people
+		prerequisite = { focus = DPR_Mypostrioimsvoyusssr  }
+		available = {
+			always = yes
+		}
+		cost = 0.8	
+		completion_reward = {
+
+		}
+		x = 37
+		y = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 focus = { 
+		id = DPR_andslut
+		icon = GFX_BLR_appeal_to_people
+		prerequisite = { focus = DPR_with_bleckjek  }
+		available = {
+			always = yes
+		}
+		cost = 0.8	
+		completion_reward = {
+
+		}
+		x = 37
+		y = 9
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 focus = { 
+		id = DPR_WarperevorotinLPR
+		icon = GFX_BLR_appeal_to_people
+		prerequisite = { focus = DPR_Sovki }
+		available = {
+			always = yes
+		}
+		cost = 0.8	
+		completion_reward = {
+
+		}
+		x = 37
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 focus = { 
+		id = DPR_DelegaciaUSSR
+		icon = GFX_BLR_appeal_to_people
+		prerequisite = { focus = DPR_WarperevorotinLPR }
+		available = {
+			always = yes
+		}
+		cost = 0.8	
+		completion_reward = {
+
+		}
+		x = 37
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+	 
+	 focus = { 
+		id = DPR_MavzoleyGriba
+		icon = GFX_BLR_appeal_to_people
+		prerequisite = { focus = DPR_DelegaciaUSSR }
+		available = {
+			always = yes
+		}
+		cost = 0.8	
+		completion_reward = {
+
+		}
+		x = 37
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 focus = { 
+		id = DPR_AntiFurry
+		icon = GFX_BLR_appeal_to_people
+		prerequisite = { focus = DPR_Sovki }
+		available = {
+			always = yes
+		}
+		cost = 0.8	
+		completion_reward = {
+
+		}
+		x = 39
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 focus = { 
+		id = DPR_ZapretitBoykissera
+		icon = GFX_BLR_appeal_to_people
+		prerequisite = { focus = DPR_AntiFurry }
+		available = {
+			always = yes
+		}
+		cost = 0.8	
+		completion_reward = {
+
+		}
+		x = 41
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 focus = { 
+		id = DPR_Restoremalazboing
+		icon = GFX_BLR_appeal_to_people
+		prerequisite = { focus = DPR_ZapretitBoykissera focus = DPR_SbitGirkina }
+		available = {
+			always = yes
+		}
+		cost = 0.8	
+		completion_reward = {
+
+		}
+		x = 41
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 focus = { 
+		id = DPR_ZapretitGachiMuchi
+		icon = GFX_BLR_appeal_to_people
+		prerequisite = { focus = DPR_Restoremalazboing focus = DPR_VvestiRubly }
+		available = {
+			always = yes
+		}
+		cost = 0.8	
+		completion_reward = {
+
+		}
+		x = 41
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 focus = { 
+		id = DPR_SbitGirkina
+		icon = GFX_BLR_appeal_to_people
+		prerequisite = { focus = DPR_AntiFurry }
+		available = {
+			always = yes
+		}
+		cost = 0.8	
+		completion_reward = {
+
+		}
+		x = 39
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 focus = { 
+		id = DPR_VvestiRubly
+		icon = GFX_BLR_appeal_to_people
+		prerequisite = { focus = DPR_SbitGirkina }
+		available = {
+			always = yes
+		}
+		cost = 0.8	
+		completion_reward = {
+
+		}
+		x = 39
+		y = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
