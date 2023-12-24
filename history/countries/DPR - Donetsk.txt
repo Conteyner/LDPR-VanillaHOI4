@@ -8,11 +8,42 @@ set_stability = 0.45
 
 set_war_support = 0.15
 
+recruit_character = denis_pushilin
+recruit_character = great_party
+recruit_character = girkin_strelkov
+recruit_character = Cago
+recruit_character = Crico
+recruit_character = Estripper
+recruit_character = orest_luty
+recruit_character = kiva_kivovich
+recruit_character = sergiy_sternenko
+recruit_character = alex_parker
+recruit_character = sergey_mavrodi
+recruit_character = boykisser
+recruit_character = maksim_katz
+recruit_character = michael_bay
+recruit_character = bdzmil
+recruit_character = morginal
+recruit_character = ezik_lisichkin
+recruit_character = zdanov
+recruit_character = strategdivannogolegiona
+recruit_character = ilich_lenin
+recruit_character = prigozin_zhenya
+recruit_character = grisha_putin
+recruit_character = aleksandr_hodakovskiy
+recruit_character = aleksey_arestovich
+recruit_character = konstantin_kuzmin
+recruit_character = alexey_dikiy
+recruit_character = edward_basurin
+recruit_character = vladimir_joga
+
 
 
 add_political_power = 100
 
 set_convoys = 11
+
+
 
 set_popularities = {
 	democratic = 53

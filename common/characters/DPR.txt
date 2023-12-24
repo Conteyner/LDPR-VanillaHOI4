@@ -1,0 +1,673 @@
+characters = {
+	
+	denis_pushilin = {
+		name = denis_pushilin
+		portraits = {
+			civilian = {
+				#Custom image for Denis Pushilin
+				#large = "/gfx/leaders/DPR/UaLViJAT-9409.dds"
+			}
+		}
+		country_leader = {
+			expire = "1990.1.1"
+			ideology = liberalism
+			traits = { Denis_Pushilin }
+		}
+	}
+
+	girkin_strelkov = {
+		name = girkin_strelkov
+		portraits = {
+			civilian = {
+				#Custom image for Denis Pushilin
+				#large = "/gfx/leaders/DPR/UaLViJAT-9409.dds"
+			}
+		}
+		country_leader = {
+			expire = "1990.1.1"
+			ideology = nazism
+			traits = { girkin_strelkov }
+		}
+	}
+
+	great_party = {
+		name = great_party
+		portraits = {
+			civilian = {
+				#Custom image for Denis Pushilin
+				#large = "/gfx/leaders/DPR/UaLViJAT-9409.dds"
+			}
+		}
+		country_leader = {
+			expire = "1990.1.1"
+			ideology = marxism
+			traits = { great_party }
+		}
+	}
+
+	Cago = {
+		name = Cago
+		portraits = {
+			civilian = {
+				#Custom image for Denis Pushilin
+				#large = "/gfx/leaders/DPR/UaLViJAT-9409.dds"
+			}
+		}
+		country_leader = {
+			expire = "1990.1.1"
+			ideology = despotism
+			traits = { Cago }
+		}
+	}
+
+	Crico = {
+		name = Crico
+		portraits = {
+			civilian = {
+				#Custom image for Denis Pushilin
+				#large = "/gfx/leaders/DPR/UaLViJAT-9409.dds"
+			}
+		}
+		country_leader = {
+			expire = "1990.1.1"
+			ideology = oligarchism	
+			traits = { Crico }
+		}
+	}
+
+	Estripper = {
+		name = Estripper
+		portraits = {
+			civilian = {
+				#Custom image for Denis Pushilin
+				#large = "/gfx/leaders/DPR/UaLViJAT-9409.dds"
+			}
+		}
+		country_leader = {
+			expire = "1990.1.1"
+			ideology = moderatism	
+			traits = { Estripper }
+		}
+	}
+
+	orest_luty = {
+		name = orest_luty
+		portraits = {
+			civilian = {
+				small = ""
+			}
+		}
+		advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = DPR_orest_luty
+			allowed = {
+				original_tag = DPR
+			}
+			available = {
+				OR = {
+					has_government = fascism 
+					has_completed_focus = DPR_Orest8
+				}
+			}
+			
+			traits = {
+				Culture_minister 
+			}
+		}
+	}
+
+	kiva_kivovich = {
+		name = kiva_kivovich
+		portraits = {
+			civilian = {
+				small = ""
+			}
+		}
+		advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = DPR_kiva_kivovich
+			allowed = {
+				original_tag = DPR
+			}
+			available = {
+				OR = {
+					has_government = democratic 
+				}
+			}
+			
+			traits = {
+				Yariy_Patriot
+			}
+		}
+	}
+
+	sergiy_sternenko = {
+		name = sergiy_sternenko
+		portraits = {
+			civilian = {
+				small = ""
+			}
+		}
+		advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = DPR_sergiy_sternenko
+			allowed = {
+				original_tag = DPR
+			}
+			available = {
+				OR = {
+					has_government = democratic 
+					has_completed_focus = DPR_Donbassradio
+				}
+			}
+			
+			traits = {
+				Famous_reper
+			}
+		}
+	}
+
+	alex_parker = {
+		name = alex_parker
+		portraits = {
+			civilian = {
+				small = ""
+			}
+		}
+		advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = DPR_alex_parker
+			allowed = {
+				original_tag = DPR
+			}
+			available = {
+			}
+			
+			traits = {
+				seriy_kardinal
+			}
+		}
+	}
+
+	sergey_mavrodi = {
+		name = sergey_mavrodi
+		portraits = {
+			civilian = {
+				small = ""
+			}
+		}
+		advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = DPR_sergey_mavrodi
+			allowed = {
+				original_tag = DPR
+			}
+			available = {
+				has_completed_focus = DPR_MMM
+			}
+			
+			traits = {
+				Pizdaboll
+			}
+		}
+	}
+
+	boykisser = {
+		name = boykisser
+		portraits = {
+			civilian = {
+				small = ""
+			}
+		}
+		advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = DPR_boykisser
+			allowed = {
+				original_tag = DPR
+			}
+			available = {
+				has_government = denis_pushilin
+			}
+			
+			traits = {
+				cutest_cat
+			}
+		}
+	}
+
+	maksim_katz = {
+		name = maksim_katz
+		portraits = {
+			civilian = {
+				small = ""
+			}
+		}
+		advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = DPR_maksim_katz
+			allowed = {
+				original_tag = DPR
+			}
+			available = {
+				has_completed_focus = DPR_MaksimkakatZ
+			}
+			
+			traits = {
+				soeviy_liberaxa
+			}
+		}
+	}
+
+	michael_bay = {
+		name = michael_bay
+		portraits = {
+			civilian = {
+				small = ""
+			}
+		}
+		advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = DPR_michael_bay
+			allowed = {
+				original_tag = DPR
+			}
+			available = {
+				has_completed_focus = DPR_MishaBey
+			}
+			
+			traits = {
+				Kinorezisher
+			}
+		}
+	}
+
+	#жмиль
+	bdzmil = {
+		name = bdzmil
+		portraits = {
+			civilian = {
+				small = ""
+			}
+		}
+		advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = DPR_bdzmil
+			allowed = {
+				original_tag = DPR
+			}
+			available = {
+				
+			}
+			
+			traits = {
+				Mediynik
+			}
+		}
+	}
+
+	morginal = {
+		name = morginal
+		portraits = {
+			civilian = {
+				small = ""
+			}
+		}
+		advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = DPR_morginal
+			allowed = {
+				original_tag = DPR
+			}
+			available = {
+				
+			}
+			
+			traits = {
+				MyslitelSovremennosti
+			}
+		}
+	}
+
+	ezik_lisichkin = {
+		name = ezik_lisichkin
+		portraits = {
+			civilian = {
+				small = ""
+			}
+		}
+		advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = DPR_ezik_lisichkin
+			allowed = {
+				original_tag = DPR
+			}
+			available = {
+				has_government = communism
+			}
+			
+			traits = {
+				Psevdointelektyal
+			}
+		}
+	}
+
+	strategdivannogolegiona = {
+		name = strategdivannogolegiona
+		portraits = {
+			civilian = {
+				small = ""
+			}
+		}
+		advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = DPR_strategdivannogolegiona
+			allowed = {
+				original_tag = DPR
+			}
+			available = {
+				
+			}
+			
+			traits = {
+				okyltist
+			}
+		}
+	}
+
+
+	zdanov = {
+		name = zdanov
+		portraits = {
+			civilian = {
+				small = ""
+			}
+		}
+		advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = DPR_zdanov
+			allowed = {
+				original_tag = DPR
+			}
+			available = {
+				has_government = communism
+			}
+			
+			traits = {
+				voeniyobozrevatel
+			}
+		}
+	}
+
+	ilich_lenin = {
+		name = ilich_lenin
+		portraits = {
+			civilian = {
+				small = ""
+			}
+		}
+		advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = DPR_ilich_lenin
+			allowed = {
+				original_tag = DPR
+			}
+			available = {
+				has_government = communism
+				has_completed_focus = DPR_MavzoleyGriba
+			}
+			
+			traits = {
+				grib
+			}
+		}
+	}
+
+	prigozin_zhenya = {
+		name = prigozin_zhenya
+		portraits = {
+			army = {
+				small = ""
+			}
+			army = {
+				large = ""
+			}
+		}
+		field_marshal={
+			traits={
+				brilliant_strategist
+				career_officer
+				trait_engineer 
+				fortress_buster
+		    }
+			skill=4
+			attack_skill=5
+			defense_skill=4
+			planning_skill=6
+			logistics_skill=5
+		}
+		advisor={
+			cost = 100
+			slot = high_command
+			idea_token = DPR_prigozin_zhenya
+			allowed = {
+				original_tag = DPR
+			}
+			available = {
+			}
+			
+			traits = {
+				bakhmutskiy_myasoryb
+			}
+		}
+	}
+
+	grisha_putin = {
+		name = grisha_putin
+		portraits = {
+			army = {
+				small = ""
+			}
+			army = {
+				large = ""
+			}
+		}
+		field_marshal={
+			traits={
+				brilliant_strategist
+				career_officer
+				trait_engineer 
+				fortress_buster
+		    }
+			skill=4
+			attack_skill=6
+			defense_skill=2
+			planning_skill=8
+			logistics_skill=3
+		}
+		advisor={
+			cost = 100
+			slot = high_command
+			idea_token = DPR_grisha_putin
+			allowed = {
+				original_tag = DPR
+			}
+			available = {
+			}
+			
+			traits = {
+				hoyka_igrok
+			}
+		}
+	}
+
+	aleksandr_hodakovskiy = {
+		name = aleksandr_hodakovskiy
+		portraits = {
+			army = {
+				small = ""
+			}
+			army = {
+				large = ""
+			}
+		}
+		field_marshal={
+			traits={
+				brilliant_strategist
+				career_officer
+				trait_engineer 
+				fortress_buster
+		    }
+			skill=4
+			attack_skill=2
+			defense_skill=4
+			planning_skill=5
+			logistics_skill=3
+		}
+		advisor={
+			cost = 100
+			slot = high_command
+			idea_token = DPR_aleksandr_hodakovskiy
+			allowed = {
+				original_tag = DPR
+			}
+			available = {
+			}
+			
+			traits = {
+				prosto_slon
+			}
+		}
+	}
+
+	aleksey_arestovich = {
+		name = aleksey_arestovich
+		portraits = {
+			army = {
+				small = ""
+			}
+			army = {
+				large = ""
+			}
+		}
+		field_marshal={
+			traits={
+				trickster
+				career_officer
+				trait_engineer 
+				fortress_buster
+		    }
+			skill=4
+			attack_skill=2
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=3
+		}
+		advisor={
+			cost = 100
+			slot = army_chief
+			idea_token = DPR_aleksey_arestovich
+			allowed = {
+				original_tag = DPR
+			}
+			available = {
+			}
+			
+			traits = {
+				aleshazlydni
+			}
+		}
+	}
+
+	konstantin_kuzmin = {
+		name = konstantin_kuzmin
+		portraits = {
+			army={
+				small="/gfx/interface/ideas/idea_LEB_generic_land_3.dds"
+				}
+			army={
+				large="/gfx/leaders/DPR/konstantin_kuzmin.dds"
+				}
+		}
+		corps_commander={
+				traits={ ambusher }
+				skill=3
+				attack_skill=3
+				defense_skill=5
+				planning_skill=2
+				logistics_skill=3
+			}
+	}
+	alexey_dikiy = {
+		name = alexey_dikiy
+		portraits = {
+			army={
+				small=""
+				}
+			army={
+				large=""
+				}
+		}
+		corps_commander={
+				traits={ old_guard media_personality }
+				skill=2
+				attack_skill=1
+				defense_skill=3
+				planning_skill=2
+				logistics_skill=2
+			}
+	}
+	edward_basurin = {
+		name = edward_basurin
+		portraits = {
+			army={
+				small=""
+				}
+			army={
+				large=""
+				}
+		}
+		corps_commander={
+				traits={ trait_cautious }
+				skill=2
+				attack_skill=2
+				defense_skill=1
+				planning_skill=3
+				logistics_skill=1
+			}
+	}
+
+	vladimir_joga = {
+		name = vladimir_joga
+		portraits = {
+			army={
+				small=""
+				large=""
+			}
+			
+		}
+		field_marshal={
+				traits={ commando combined_arms_expert old_guard }
+				skill=6
+				attack_skill=5
+				defense_skill=4
+				planning_skill=6
+				logistics_skill=3
+			}
+	}
+
+}
+#
