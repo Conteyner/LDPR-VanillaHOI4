@@ -33,7 +33,12 @@ focus_tree = {
 		}
 		cost = 0.3	
 		completion_reward = {
-
+			set_politics = {
+				ruling_party = democratic
+				elections_allowed = yes
+				long_name = DPR_democratic_party_long
+				name = DPR_democratic_party
+			}
 		}
 		x = 22
 		y = 2
@@ -51,7 +56,7 @@ focus_tree = {
 		}
 		cost = 2
 		completion_reward = {
-
+			add_political_power = 100
 		}
 		x = 20
 		y = 3
@@ -1268,7 +1273,7 @@ focus_tree = {
 	 focus = { 
 		id = DPR_Bazirovanniyfilm
 		icon = GFX_BLR_appeal_to_people
-		prerequisite = { focus = DPR_Sovki }
+		prerequisite = { focus = DPR_Kovbassa }
 		available = {
 			always = yes
 		}
