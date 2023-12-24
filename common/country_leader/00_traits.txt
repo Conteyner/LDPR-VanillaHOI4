@@ -10336,7 +10336,7 @@ leader_traits = {
 		surrender_limit = -0.7
 		trade_opinion_factor = 0.7
 		send_volunteer_size = 0.5
-		equipment_capture_factor = -0.15
+		equipment_capture_factor = 0.9
 		equipment_conversion_speed = -0.05
 	}
 
