@@ -154,11 +154,13 @@ focus_tree = {
 		}
 		cost = 2	
 		completion_reward = {
+			SOV = { #LPR
 			add_opinion_modifier = {
-				target = SOV #LPR
+				target = DPR 
 				modifier = DPR_LPR_future 
 
 			} 
+		}
 		}
 		x = 24
 		y = 4
