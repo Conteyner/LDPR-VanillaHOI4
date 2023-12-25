@@ -330,8 +330,9 @@ focus_tree = {
 		cost = 2	
 		completion_reward = {
 			SOV = {
-			kill_country_leader = yes
-			recruit_character = femboy_stalin
+				set_country_leader_portrait = {
+					portrait = GFX_portrait_femboy_stalin
+				}
 			}
 		}
 		x = 20
@@ -352,7 +353,11 @@ focus_tree = {
 		}
 		cost = 2
 		completion_reward = {
-			#W.I.P
+			GER = {
+				set_country_leader_portrait = {
+					portrait = GFX_portrait_femboy_hitler
+				}
+				}
 		}
 		x = 20
 		y = 10
