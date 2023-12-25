@@ -21,6 +21,39 @@ ideas = {
 			}
 		}
 
+		MMM = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_idea_nato_instructors
+			modifier = {
+				consumer_goods_factor = -0.1
+				research_speed_factor = 0.1
+				weekly_manpower = -50
+			}
+		}
+
+		Elefant = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_idea_nato_instructors
+			modifier = {
+
+				army_core_defence_factor = 0.1
+				army_core_attack_factor = 0.1
+
+			}
+		}
+
 		Young_country = {
 			allowed = {
 				always = no
