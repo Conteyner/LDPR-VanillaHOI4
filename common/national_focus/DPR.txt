@@ -329,6 +329,7 @@ focus_tree = {
 		}
 		cost = 2	
 		completion_reward = {
+			add_stability = 0.05
 			SOV = {
 				set_country_leader_portrait = {
 					portrait = GFX_portrait_femboy_stalin
@@ -353,6 +354,7 @@ focus_tree = {
 		}
 		cost = 2
 		completion_reward = {
+			add_stability = 0.05
 			GER = {
 				set_country_leader_portrait = {
 					portrait = GFX_portrait_femboy_hitler
