@@ -130,7 +130,13 @@ focus_tree = {
 		}
 		cost = 2
 		completion_reward = {
+			SOV = { #LPR
+			add_opinion_modifier = {
+				target = DPR
+				modifier = offered_support
 
+			} 
+		}
 		}
 		x = 24
 		y = 3
@@ -148,7 +154,11 @@ focus_tree = {
 		}
 		cost = 2	
 		completion_reward = {
+			add_opinion_modifier = {
+				target = SOV #LPR
+				modifier = DPR_LPR_future 
 
+			} 
 		}
 		x = 24
 		y = 4
@@ -384,7 +394,27 @@ focus_tree = {
 		}
 		cost = 2
 		completion_reward = {
-			#W.I.P
+		if = {
+			limit = {
+				SOV = {is_ai = yes} #LPR
+			}
+		
+				random_list = {
+					0.9 = { 
+						annex_country = {
+						target = SOV #LPR
+						transfer_troops = yes
+					}
+				}
+				0.1 = {}
+				
+				}
+		}
+			
+		else = {	
+			country_event = donetsk.3
+		}
+			
 		}
 		x = 22
 		y = 6
@@ -500,7 +530,12 @@ focus_tree = {
 		}
 		cost = 2
 		completion_reward = {
-
+			country_event = {
+				id = donetsk.1
+				days = 1	
+				random_hours = 1
+				random_days = 1
+			}
 		}
 		x = 18
 		y = 5
@@ -520,7 +555,12 @@ focus_tree = {
 		}
 		cost = 2	
 		completion_reward = {
-
+			country_event = {
+				id = donetsk.2
+				days = 1	
+				random_hours = 1
+				random_days = 1
+			}
 		}
 		x = 18
 		y = 6

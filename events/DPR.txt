@@ -1,0 +1,46 @@
+add_namespace = donetsk
+
+country_event = {
+	id = donetsk.1
+	title = donetsk.1.t
+	desc = donetsk.1.d
+	picture = d
+
+	is_triggered_only = yes
+	
+	option = {
+		name = donetsk.1.a
+		add_war_support = 0.05
+		add_namespace = 7500
+		add_political_power = 100
+	}
+}
+	country_event = {
+		id = donetsk.2
+		title = donetsk.2.t
+		desc = donetsk.2.d
+		picture = d
+	
+		is_triggered_only = yes
+		
+		option = {
+			name = donetsk.2.a
+			add_war_support = 0.1
+			add_namespace = 7500
+			add_political_power = 100
+		}
+	}
+
+
+	country_event = {
+		id = donetsk.3
+		title = donetsk.3.t
+		desc = donetsk.3.d
+		picture = d
+	
+		is_triggered_only = yes
+		
+		option = {
+			name = donetsk.3.a
+		}
+	}
