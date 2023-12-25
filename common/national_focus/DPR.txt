@@ -329,7 +329,10 @@ focus_tree = {
 		}
 		cost = 2	
 		completion_reward = {
-			#W.I.P
+			SOV = {
+			kill_country_leader = yes
+			recruit_character = femboy_stalin
+			}
 		}
 		x = 20
 		y = 9
