@@ -6446,6 +6446,11 @@ spriteTypes = {
 		texturefile = "gfx/leaders/SOV/Portrait_Femboy_Stalin.dds"
 	}
 
+	spriteType = {
+		name = GFX_Kawai_Strelkov
+		texturefile = "gfx/leaders/DPR/Kawai_Strelkov.dds"
+	}
+	
 
 	spriteType = {
 		name = GFX_portrait_femboy_hitler

@@ -595,7 +595,11 @@ focus_tree = {
 		}
 		cost = 0.3	
 		completion_reward = {
+			set_politics = {
+				ruling_party = fascism
+				elections_allowed = no
 
+			}
 		}
 		x = 11
 		y = 2
@@ -613,7 +617,13 @@ focus_tree = {
 		}
 		cost = 0.3	
 		completion_reward = {
+			GER = { 
+			add_opinion_modifier = {
+				target = DPR 
+				modifier = DPR_LPR_future 
 
+			} 
+		}
 		}
 		x = 9
 		y = 3
@@ -631,7 +641,13 @@ focus_tree = {
 		}
 		cost = 0.3	
 		completion_reward = {
-
+			ITA = { 
+				add_opinion_modifier = {
+					target = DPR 
+					modifier = DPR_LPR_future 
+	
+				} 
+			}
 		}
 		x = 9
 		y = 4
@@ -649,7 +665,13 @@ focus_tree = {
 		}
 		cost = 0.3	
 		completion_reward = {
-
+			JAP = { 
+				add_opinion_modifier = {
+					target = DPR 
+					modifier = DPR_LPR_future 
+	
+				} 
+			}
 		}
 		x = 9
 		y = 5
@@ -667,7 +689,7 @@ focus_tree = {
 		}
 		cost = 2
 		completion_reward = {
-
+			kill_ideology_leader = democratic
 		}
 		x = 11
 		y = 3
@@ -685,7 +707,7 @@ focus_tree = {
 		}
 		cost = 2
 		completion_reward = {
-
+			add_stability = 0.25
 		}
 		x = 11
 		y = 4
@@ -703,7 +725,7 @@ focus_tree = {
 		}
 		cost = 2
 		completion_reward = {
-
+			add_ideas = WarXy
 		}
 		x = 13
 		y = 3
@@ -721,7 +743,7 @@ focus_tree = {
 		}
 		cost = 2
 		completion_reward = {
-
+			add_manpower = 55000
 		}
 		x = 15
 		y = 3
@@ -739,8 +761,15 @@ focus_tree = {
 		}
 		cost = 2
 		completion_reward = {
-
-		}
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 1500
+			}
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 1500
+			}
+		}	
 		x = 15
 		y = 4
 		search_filters = {
@@ -757,7 +786,12 @@ focus_tree = {
 		}
 		cost = 2
 		completion_reward = {
-
+			227 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+				}
+			}
 		}
 		x = 15
 		y = 5
@@ -778,7 +812,7 @@ focus_tree = {
 		}
 		cost = 2
 		completion_reward = {
-
+			add_political_power = 50
 		}
 		x = 13
 		y = 7
@@ -802,7 +836,9 @@ focus_tree = {
 		}
 		cost = 2
 		completion_reward = {
-
+			declare_war_on = {
+				target = LPR
+			}
 		}
 		x = 11
 		y = 8
@@ -825,7 +861,9 @@ focus_tree = {
 		}
 		cost = 2
 		completion_reward = {
-
+			declare_war_on = {
+				target = LPR
+			}
 		}
 		x = 13
 		y = 8
@@ -848,7 +886,9 @@ focus_tree = {
 		}
 		cost = 2
 		completion_reward = {
-
+			declare_war_on = {
+				target = LPR
+			}
 		}
 		x = 15
 		y = 8
@@ -873,7 +913,7 @@ focus_tree = {
 	
 		cost = 2
 		completion_reward = {
-
+			add_political_power = 50
 		}
 		x = 13
 		y = 9
@@ -891,10 +931,18 @@ focus_tree = {
 		}
 		available = {
 			always = yes
+			GER = {
+				has_war_with = SOV
+			}
 		}
 		cost = 2
 		completion_reward = {
-
+			declare_war_on = {
+				target = SOV
+			}
+			GER = {
+				add_to_faction = DPR
+			}
 		}
 		x = 11
 		y = 10
@@ -916,7 +964,13 @@ focus_tree = {
 		}
 		cost = 2
 		completion_reward = {
-
+			declare_war_on = {
+				target = SOV
+			}
+			add_timed_idea = {			
+				idea = XrestoviyPoxodNaSovok 
+				days = 90
+			}
 		}
 		x = 15
 		y = 10
@@ -942,7 +996,10 @@ focus_tree = {
 		}
 		cost = 2
 		completion_reward = {
-
+			add_timed_idea = {
+				idea = TysachaletniyDNR
+				days = 365000
+			}
 		}
 		x = 13
 		y = 12
@@ -963,7 +1020,7 @@ focus_tree = {
 		}
 		cost = 2
 		completion_reward = {
-
+			add_stability = 0.25
 		}
 		x = 11
 		y = 13
@@ -985,7 +1042,15 @@ focus_tree = {
 		}
 		cost = 2
 		completion_reward = {
-
+			add_stability = -0.25
+			set_character_name = {
+				character = girkin_strelkov
+				name = Kawai_Strelkov
+			}
+			set_country_leader_portrait = {
+				ideology = fascism
+				portrait = GFX_Kawai_Strelkov
+			}
 		}
 		x = 15
 		y = 13
@@ -1003,6 +1068,7 @@ focus_tree = {
 		}
 		cost = 2
 		completion_reward = {
+			add_political_power = 100
 
 		}
 		x = 13
@@ -1021,7 +1087,7 @@ focus_tree = {
 		}
 		cost = 2
 		completion_reward = {
-
+			set_province_name = { id = 6420 name = VICTORY_POINTS_6420_Zdanov }
 		}
 		x = 13
 		y = 5
@@ -1039,7 +1105,7 @@ focus_tree = {
 		}
 		cost = 2
 		completion_reward = {
-
+			deactivate_advisor = DPR_kiva_kivovich
 		}
 		x = 11
 		y = 5
@@ -1057,7 +1123,7 @@ focus_tree = {
 		}
 		cost = 0.3	
 		completion_reward = {
-
+			add_political_power = 50
 		}
 		x = 7
 		y = 3
@@ -1075,7 +1141,7 @@ focus_tree = {
 		}
 		cost = 0.3	
 		completion_reward = {
-
+			add_political_power = 50
 		}
 		x = 7
 		y = 4
@@ -1093,7 +1159,7 @@ focus_tree = {
 		}
 		cost = 0.3	
 		completion_reward = {
-
+			add_political_power = 50
 		}
 		x = 7
 		y = 5
@@ -1111,7 +1177,7 @@ focus_tree = {
 		}
 		cost = 0.3	
 		completion_reward = {
-
+			add_political_power = 50
 		}
 		x = 7
 		y = 6
@@ -1129,7 +1195,7 @@ focus_tree = {
 		}
 		cost = 0.3	
 		completion_reward = {
-
+			add_political_power = 100
 		}
 		x = 7
 		y = 7
@@ -1147,7 +1213,7 @@ focus_tree = {
 		}
 		cost = 0.3	
 		completion_reward = {
-
+			add_political_power = 150
 		}
 		x = 7
 		y = 8
@@ -1165,7 +1231,7 @@ focus_tree = {
 		}
 		cost = 0.3	
 		completion_reward = {
-
+			add_political_power = 300
 		}
 		x = 7
 		y = 9
@@ -1183,7 +1249,7 @@ focus_tree = {
 		}
 		cost = 0.3	
 		completion_reward = {
-
+			add_political_power = 500
 		}
 		x = 7
 		y = 10
@@ -1206,7 +1272,10 @@ focus_tree = {
 		}
 		cost = 0.3	
 		completion_reward = {
-
+			set_politics = {
+				ruling_party = neutrality
+				elections_allowed = yes
+			}
 		}
 		x = 2
 		y = 2
@@ -1228,7 +1297,15 @@ focus_tree = {
 		}
 		cost = 0.3	
 		completion_reward = {
-
+			add_country_leader_role = {
+				character = Cago
+				promote_leader = yes
+				country_leader = {
+					ideology = despotism
+					expire = "1965.1.1.1"
+				}
+			}
+			
 		}
 		x = 0
 		y = 3
@@ -1250,7 +1327,14 @@ focus_tree = {
 		}
 		cost = 0.3	
 		completion_reward = {
-
+			add_country_leader_role = {
+				character = Estripper
+				promote_leader = yes
+				country_leader = {
+					ideology = despotism
+					expire = "1965.1.1.1"
+				}
+			}
 		}
 		x = 2
 		y = 3
@@ -1272,7 +1356,14 @@ focus_tree = {
 		}
 		cost = 0.3	
 		completion_reward = {
-
+			add_country_leader_role = {
+				character = Crico
+				promote_leader = yes
+				country_leader = {
+					ideology = despotism
+					expire = "1965.1.1.1"
+				}
+			}
 		}
 		x = 4
 		y = 3

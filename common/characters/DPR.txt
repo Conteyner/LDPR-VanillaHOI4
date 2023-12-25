@@ -30,6 +30,8 @@ characters = {
 		}
 	}
 
+
+
 	great_party = {
 		name = great_party
 		portraits = {
@@ -47,6 +49,7 @@ characters = {
 
 	Cago = {
 		name = Cago
+		idea_token = Cago
 		portraits = {
 			civilian = {
 				#Custom image for Denis Pushilin
@@ -62,6 +65,7 @@ characters = {
 
 	Crico = {
 		name = Crico
+		idea_token = Crico
 		portraits = {
 			civilian = {
 				#Custom image for Denis Pushilin
@@ -77,6 +81,7 @@ characters = {
 
 	Estripper = {
 		name = Estripper
+		idea_token = Estripper
 		portraits = {
 			civilian = {
 				#Custom image for Denis Pushilin

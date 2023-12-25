@@ -54,6 +54,60 @@ ideas = {
 			}
 		}
 
+		WarXy = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_idea_nato_instructors
+			modifier = {
+				consumer_goods_factor = -0.05
+				research_speed_factor = -0.05
+				army_attack_against_major_factor = 0.25
+				army_defence_against_major_factor = 0.25
+				repair_speed_arms_factory_factor = 0.1
+			}
+		}
+
+
+		XrestoviyPoxodNaSovok = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_idea_nato_instructors
+			modifier = {
+				army_attack_against_major_factor = 1
+				army_defence_against_major_factor = 1
+				army_speed_factor = 2
+			}
+		}
+
+		TysachaletniyDNR = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_idea_nato_instructors
+			modifier = {
+				research_speed_factor = 0.4
+				political_power_factor = 0.5
+				army_speed_factor = 0.2
+				army_attack_factor = 0.2
+				monthly_population = 0.5
+			}
+		}
+
+
 		Young_country = {
 			allowed = {
 				always = no
