@@ -2012,9 +2012,32 @@ focus_tree = {
 		}
 		available = {
 			always = yes
+			has_tech = 	basic_medium_tank_chassis	
 		}
-		cost = 6
+		cost = 3
 		completion_reward = {
+			
+			create_equipment_variant = {
+				name = "Pushilin Mark 1"
+				type = medium_tank_chassis_1
+				parent_version = 0
+				modules = {
+					main_armament_slot = tank_small_cannon_2
+					turret_type_slot = tank_medium_three_man_tank_turret
+					suspension_type_slot = tank_torsion_bar_suspension
+					armor_type_slot = tank_welded_armor
+					engine_type_slot = tank_gasoline_engine
+					special_type_slot_1 = tank_radio_1
+					special_type_slot_2 = empty
+					special_type_slot_3 = empty
+					special_type_slot_4 = empty
+				}
+				upgrades = {
+					tank_nsb_engine_upgrade = 3
+					tank_nsb_armor_upgrade = 0
+				}
+				icon = "GFX_GER_basic_medium_tank_medium"
+			}	
 
 		}
 		x = 74
@@ -2035,6 +2058,27 @@ focus_tree = {
 		}
 		cost = 1.5
 		completion_reward = {
+			create_equipment_variant = {
+				name = "Pushilin Mark 1A1"
+				type = medium_tank_chassis_1
+				parent_version = 0
+				modules = {
+					main_armament_slot = tank_small_cannon_2
+					turret_type_slot = tank_medium_three_man_tank_turret
+					suspension_type_slot = tank_torsion_bar_suspension
+					armor_type_slot = tank_welded_armor
+					engine_type_slot = tank_gasoline_engine
+					special_type_slot_1 = tank_radio_2
+					special_type_slot_2 = empty
+					special_type_slot_3 = empty
+					special_type_slot_4 = empty
+				}
+				upgrades = {
+					tank_nsb_engine_upgrade = 4
+					tank_nsb_armor_upgrade = 0
+				}
+				icon = "GFX_GER_basic_medium_tank_medium"
+			}	
 
 		}
 		x = 76
@@ -2055,6 +2099,27 @@ focus_tree = {
 		}
 		cost = 1.5
 		completion_reward = {
+			create_equipment_variant = {
+				name = "Pushilin Mark 1A2"
+				type = medium_tank_chassis_1
+				parent_version = 0
+				modules = {
+					main_armament_slot = tank_small_cannon_2
+					turret_type_slot = tank_medium_three_man_tank_turret
+					suspension_type_slot = tank_torsion_bar_suspension
+					armor_type_slot = tank_welded_armor
+					engine_type_slot = tank_gasoline_engine
+					special_type_slot_1 = tank_radio_3
+					special_type_slot_2 = smoke_launchers
+					special_type_slot_3 = empty
+					special_type_slot_4 = empty
+				}
+				upgrades = {
+					tank_nsb_engine_upgrade = 8
+					tank_nsb_armor_upgrade = 0
+				}
+				icon = "GFX_GER_basic_medium_tank_medium"
+			}	
 
 		}
 		x = 78
@@ -2075,6 +2140,27 @@ focus_tree = {
 		}
 		cost = 1.5
 		completion_reward = {
+			create_equipment_variant = {
+				name = "Pushilin Mark 1A3"
+				type = medium_tank_chassis_1
+				parent_version = 0
+				modules = {
+					main_armament_slot = tank_small_cannon_2	
+					turret_type_slot = tank_medium_three_man_tank_turret
+					suspension_type_slot = tank_torsion_bar_suspension
+					armor_type_slot = tank_welded_armor
+					engine_type_slot = tank_gasoline_engine
+					special_type_slot_1 = tank_radio_3
+					special_type_slot_2 = smoke_launchers
+					special_type_slot_3 = wet_ammo_storage
+					special_type_slot_4 = empty
+				}
+				upgrades = {
+					tank_nsb_engine_upgrade = 9
+					tank_nsb_armor_upgrade = 0
+				}
+				icon = "GFX_GER_basic_medium_tank_medium"
+			}	
 
 		}
 		x = 80
@@ -2095,7 +2181,27 @@ focus_tree = {
 		}
 		cost = 1.5
 		completion_reward = {
-
+			create_equipment_variant = {
+				name = "Pushilin Mark 1A3"
+				type = medium_tank_chassis_1
+				parent_version = 0
+				modules = {
+					main_armament_slot = tank_small_cannon_2	
+					turret_type_slot = tank_medium_three_man_tank_turret
+					suspension_type_slot = tank_torsion_bar_suspension
+					armor_type_slot = tank_welded_armor
+					engine_type_slot = tank_gasoline_engine
+					special_type_slot_1 = tank_radio_3
+					special_type_slot_2 = smoke_launchers
+					special_type_slot_3 = wet_ammo_storage
+					special_type_slot_4 = expanded_fuel_tank
+				}
+				upgrades = {
+					tank_nsb_engine_upgrade = 10
+					tank_nsb_armor_upgrade = 0
+				}
+				icon = "GFX_GER_basic_medium_tank_medium"
+			}	
 		}
 		x = 82
 		y = 5
@@ -2115,7 +2221,27 @@ focus_tree = {
 		}
 		cost = 1.5
 		completion_reward = {
-
+			create_equipment_variant = {
+				name = "Pushilin Mark 1A5"
+				type = medium_tank_chassis_1
+				parent_version = 0
+				modules = {
+					main_armament_slot = tank_small_cannon_2	
+					turret_type_slot = tank_medium_three_man_tank_turret
+					suspension_type_slot = tank_torsion_bar_suspension
+					armor_type_slot = tank_welded_armor
+					engine_type_slot = tank_gasoline_engine
+					special_type_slot_1 = tank_radio_3
+					special_type_slot_2 = smoke_launchers
+					special_type_slot_3 = wet_ammo_storage
+					special_type_slot_4 = expanded_fuel_tank
+				}
+				upgrades = {
+					tank_nsb_engine_upgrade = 15
+					tank_nsb_armor_upgrade = 5
+				}
+				icon = "GFX_GER_basic_medium_tank_medium"
+			}	
 		}
 		x = 84
 		y = 5
@@ -2133,8 +2259,29 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		cost = 10
+		cost = 5
 		completion_reward = {
+			create_equipment_variant = {
+				name = "Pushilin Mark 2"
+				type = medium_tank_chassis_1
+				parent_version = 0
+				modules = {
+					main_armament_slot = tank_medium_cannon	
+					turret_type_slot = tank_medium_three_man_tank_turret
+					suspension_type_slot = tank_torsion_bar_suspension
+					armor_type_slot = tank_welded_armor
+					engine_type_slot = tank_diesel_engine
+					special_type_slot_1 = tank_radio_3
+					special_type_slot_2 = smoke_launchers
+					special_type_slot_3 = wet_ammo_storage
+					special_type_slot_4 = expanded_fuel_tank
+				}
+				upgrades = {
+					tank_nsb_engine_upgrade = 20
+					tank_nsb_armor_upgrade = 5
+				}
+				icon = "GFX_GER_basic_medium_tank_medium"
+			}	
 
 		}
 		x = 74
@@ -2155,7 +2302,27 @@ focus_tree = {
 		}
 		cost = 1.5
 		completion_reward = {
-
+			create_equipment_variant = {
+				name = "Pushilin Mark 2A1"
+				type = medium_tank_chassis_1
+				parent_version = 0
+				modules = {
+					main_armament_slot = tank_medium_cannon_2	
+					turret_type_slot = tank_medium_three_man_tank_turret
+					suspension_type_slot = tank_torsion_bar_suspension
+					armor_type_slot = tank_welded_armor
+					engine_type_slot = tank_diesel_engine
+					special_type_slot_1 = tank_radio_3
+					special_type_slot_2 = smoke_launchers
+					special_type_slot_3 = wet_ammo_storage
+					special_type_slot_4 = expanded_fuel_tank
+				}
+				upgrades = {
+					tank_nsb_engine_upgrade = 20
+					tank_nsb_armor_upgrade = 5
+				}
+				icon = "GFX_GER_basic_medium_tank_medium"
+			}	
 		}
 		x = 76
 		y = 6
@@ -2175,7 +2342,27 @@ focus_tree = {
 		}
 		cost = 1.5
 		completion_reward = {
-
+			create_equipment_variant = {
+				name = "Pushilin Mark 2A2"
+				type = medium_tank_chassis_1
+				parent_version = 0
+				modules = {
+					main_armament_slot = tank_medium_cannon_2	
+					turret_type_slot = tank_medium_three_man_tank_turret
+					suspension_type_slot = tank_torsion_bar_suspension
+					armor_type_slot = tank_welded_armor
+					engine_type_slot = tank_diesel_engine
+					special_type_slot_1 = tank_radio_3
+					special_type_slot_2 = smoke_launchers
+					special_type_slot_3 = wet_ammo_storage
+					special_type_slot_4 = expanded_fuel_tank
+				}
+				upgrades = {
+					tank_nsb_engine_upgrade = 20
+					tank_nsb_armor_upgrade = 6
+				}
+				icon = "GFX_GER_basic_medium_tank_medium"
+			}	
 		}
 		x = 78
 		y = 6
@@ -2195,7 +2382,27 @@ focus_tree = {
 		}
 		cost = 1.5
 		completion_reward = {
-
+			create_equipment_variant = {
+				name = "Pushilin Mark 2A3"
+				type = medium_tank_chassis_1
+				parent_version = 0
+				modules = {
+					main_armament_slot = tank_medium_cannon_2	
+					turret_type_slot = tank_medium_three_man_tank_turret
+					suspension_type_slot = tank_torsion_bar_suspension
+					armor_type_slot = tank_welded_armor
+					engine_type_slot = tank_diesel_engine
+					special_type_slot_1 = tank_radio_3
+					special_type_slot_2 = smoke_launchers
+					special_type_slot_3 = wet_ammo_storage
+					special_type_slot_4 = expanded_fuel_tank
+				}
+				upgrades = {
+					tank_nsb_engine_upgrade = 20
+					tank_nsb_armor_upgrade = 7
+				}
+				icon = "GFX_GER_basic_medium_tank_medium"
+			}	
 		}
 		x = 80
 		y = 6
@@ -2215,7 +2422,27 @@ focus_tree = {
 		}
 		cost = 1.5
 		completion_reward = {
-
+			create_equipment_variant = {
+				name = "Pushilin Mark 2A4"
+				type = medium_tank_chassis_1
+				parent_version = 0
+				modules = {
+					main_armament_slot = tank_medium_cannon_2	
+					turret_type_slot = tank_medium_three_man_tank_turret
+					suspension_type_slot = tank_torsion_bar_suspension
+					armor_type_slot = tank_cast_armor
+					engine_type_slot = tank_diesel_engine
+					special_type_slot_1 = tank_radio_3
+					special_type_slot_2 = smoke_launchers
+					special_type_slot_3 = wet_ammo_storage
+					special_type_slot_4 = expanded_fuel_tank
+				}
+				upgrades = {
+					tank_nsb_engine_upgrade = 20
+					tank_nsb_armor_upgrade = 7
+				}
+				icon = "GFX_GER_basic_medium_tank_medium"
+			}	
 		}
 		x = 82
 		y = 6
@@ -2235,6 +2462,27 @@ focus_tree = {
 		}
 		cost = 1.5
 		completion_reward = {
+			create_equipment_variant = {
+				name = "Pushilin Mark 2A5"
+				type = medium_tank_chassis_1
+				parent_version = 0
+				modules = {
+					main_armament_slot = tank_medium_cannon_2	
+					turret_type_slot = tank_medium_three_man_tank_turret
+					suspension_type_slot = tank_torsion_bar_suspension
+					armor_type_slot = tank_cast_armor
+					engine_type_slot = tank_diesel_engine
+					special_type_slot_1 = tank_radio_3
+					special_type_slot_2 = smoke_launchers
+					special_type_slot_3 = wet_ammo_storage
+					special_type_slot_4 = expanded_fuel_tank
+				}
+				upgrades = {
+					tank_nsb_engine_upgrade = 20
+					tank_nsb_armor_upgrade = 8
+				}
+				icon = "GFX_GER_basic_medium_tank_medium"
+			}	
 
 		}
 		x = 84
@@ -2253,9 +2501,29 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		cost = 15
+		cost = 7.5
 		completion_reward = {
-
+			create_equipment_variant = {
+				name = "Pushilin Mark 3"
+				type = medium_tank_chassis_2
+				parent_version = 0
+				modules = {
+					main_armament_slot = tank_medium_cannon_2	
+					turret_type_slot = tank_medium_three_man_tank_turret
+					suspension_type_slot = tank_torsion_bar_suspension
+					armor_type_slot = tank_cast_armor
+					engine_type_slot = tank_diesel_engine
+					special_type_slot_1 = tank_radio_3
+					special_type_slot_2 = smoke_launchers
+					special_type_slot_3 = wet_ammo_storage
+					special_type_slot_4 = expanded_fuel_tank
+				}
+				upgrades = {
+					tank_nsb_engine_upgrade = 1
+					tank_nsb_armor_upgrade = 1
+				}
+				icon = "GFX_GER_basic_medium_tank_medium"
+			}	
 		}
 		x = 74
 		y = 7
@@ -2275,7 +2543,27 @@ focus_tree = {
 		}
 		cost = 1.5
 		completion_reward = {
-
+			create_equipment_variant = {
+				name = "Pushilin Mark 3A1"
+				type = medium_tank_chassis_2
+				parent_version = 0
+				modules = {
+					main_armament_slot = tank_medium_cannon_2	
+					turret_type_slot = tank_medium_three_man_tank_turret
+					suspension_type_slot = tank_torsion_bar_suspension
+					armor_type_slot = tank_cast_armor
+					engine_type_slot = tank_diesel_engine
+					special_type_slot_1 = tank_radio_3
+					special_type_slot_2 = smoke_launchers
+					special_type_slot_3 = wet_ammo_storage
+					special_type_slot_4 = expanded_fuel_tank
+				}
+				upgrades = {
+					tank_nsb_engine_upgrade = 2
+					tank_nsb_armor_upgrade = 2
+				}
+				icon = "GFX_GER_basic_medium_tank_medium"
+			}	
 		}
 		x = 76
 		y = 7
@@ -2295,7 +2583,27 @@ focus_tree = {
 		}
 		cost = 1.5
 		completion_reward = {
-
+			create_equipment_variant = {
+				name = "Pushilin Mark 3A2"
+				type = medium_tank_chassis_2
+				parent_version = 0
+				modules = {
+					main_armament_slot = tank_medium_cannon_2	
+					turret_type_slot = tank_medium_three_man_tank_turret
+					suspension_type_slot = tank_torsion_bar_suspension
+					armor_type_slot = tank_cast_armor
+					engine_type_slot = tank_diesel_engine
+					special_type_slot_1 = tank_radio_3
+					special_type_slot_2 = smoke_launchers
+					special_type_slot_3 = wet_ammo_storage
+					special_type_slot_4 = expanded_fuel_tank
+				}
+				upgrades = {
+					tank_nsb_engine_upgrade = 5
+					tank_nsb_armor_upgrade = 3
+				}
+				icon = "GFX_GER_basic_medium_tank_medium"
+			}	
 		}
 		x = 78
 		y = 7
@@ -2315,7 +2623,27 @@ focus_tree = {
 		}
 		cost = 1.5
 		completion_reward = {
-
+			create_equipment_variant = {
+				name = "Pushilin Mark 3A3"
+				type = medium_tank_chassis_2
+				parent_version = 0
+				modules = {
+					main_armament_slot = tank_medium_cannon_2	 #tank_high_velocity_cannon
+					turret_type_slot = tank_medium_three_man_tank_turret
+					suspension_type_slot = tank_torsion_bar_suspension
+					armor_type_slot = tank_cast_armor
+					engine_type_slot = tank_diesel_engine
+					special_type_slot_1 = tank_radio_3
+					special_type_slot_2 = smoke_launchers
+					special_type_slot_3 = wet_ammo_storage
+					special_type_slot_4 = expanded_fuel_tank
+				}
+				upgrades = {
+					tank_nsb_engine_upgrade = 20
+					tank_nsb_armor_upgrade = 7
+				}
+				icon = "GFX_GER_basic_medium_tank_medium"
+			}	
 		}
 		x = 80
 		y = 7
@@ -2335,7 +2663,27 @@ focus_tree = {
 		}
 		cost = 1.5
 		completion_reward = {
-
+			create_equipment_variant = {
+				name = "Pushilin Mark 3A4"
+				type = medium_tank_chassis_2
+				parent_version = 0
+				modules = {
+					main_armament_slot = tank_high_velocity_cannon
+					turret_type_slot = tank_medium_three_man_tank_turret
+					suspension_type_slot = tank_torsion_bar_suspension
+					armor_type_slot = tank_cast_armor
+					engine_type_slot = tank_diesel_engine
+					special_type_slot_1 = tank_radio_3
+					special_type_slot_2 = smoke_launchers
+					special_type_slot_3 = wet_ammo_storage
+					special_type_slot_4 = expanded_fuel_tank
+				}
+				upgrades = {
+					tank_nsb_engine_upgrade = 20
+					tank_nsb_armor_upgrade = 7
+				}
+				icon = "GFX_GER_basic_medium_tank_medium"
+			}	
 		}
 		x = 82
 		y = 7
@@ -2355,7 +2703,27 @@ focus_tree = {
 		}
 		cost = 1.5
 		completion_reward = {
-
+			create_equipment_variant = {
+				name = "Pushilin Mark 3A5"
+				type = medium_tank_chassis_2
+				parent_version = 0
+				modules = {
+					main_armament_slot = tank_high_velocity_cannon_2
+					turret_type_slot = tank_medium_three_man_tank_turret
+					suspension_type_slot = tank_torsion_bar_suspension
+					armor_type_slot = tank_cast_armor
+					engine_type_slot = tank_diesel_engine
+					special_type_slot_1 = tank_radio_3
+					special_type_slot_2 = smoke_launchers
+					special_type_slot_3 = wet_ammo_storage
+					special_type_slot_4 = expanded_fuel_tank
+				}
+				upgrades = {
+					tank_nsb_engine_upgrade = 20
+					tank_nsb_armor_upgrade = 7
+				}
+				icon = "GFX_GER_basic_medium_tank_medium"
+			}	
 		}
 		x = 84
 		y = 7
@@ -2373,9 +2741,29 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		cost = 18
+		cost = 9
 		completion_reward = {
-
+			create_equipment_variant = {
+				name = "Pushilin Mark 4"
+				type = medium_tank_chassis_3
+				parent_version = 0
+				modules = {
+					main_armament_slot = tank_high_velocity_cannon_2
+					turret_type_slot = tank_medium_three_man_tank_turret
+					suspension_type_slot = tank_torsion_bar_suspension
+					armor_type_slot = tank_cast_armor
+					engine_type_slot = tank_diesel_engine
+					special_type_slot_1 = tank_radio_3
+					special_type_slot_2 = smoke_launchers
+					special_type_slot_3 = wet_ammo_storage
+					special_type_slot_4 = expanded_fuel_tank
+				}
+				upgrades = {
+					tank_nsb_engine_upgrade = 2
+					tank_nsb_armor_upgrade = 1
+				}
+				icon = "GFX_GER_basic_medium_tank_medium"
+			}
 		}
 		x = 74
 		y = 8
@@ -2395,7 +2783,27 @@ focus_tree = {
 		}
 		cost = 1.5
 		completion_reward = {
-
+			create_equipment_variant = {
+				name = "Pushilin Mark 4A1"
+				type = medium_tank_chassis_3
+				parent_version = 0
+				modules = {
+					main_armament_slot = tank_high_velocity_cannon_2
+					turret_type_slot = tank_medium_three_man_tank_turret
+					suspension_type_slot = tank_torsion_bar_suspension
+					armor_type_slot = tank_cast_armor
+					engine_type_slot = tank_diesel_engine
+					special_type_slot_1 = tank_radio_3
+					special_type_slot_2 = smoke_launchers
+					special_type_slot_3 = wet_ammo_storage
+					special_type_slot_4 = expanded_fuel_tank
+				}
+				upgrades = {
+					tank_nsb_engine_upgrade = 8
+					tank_nsb_armor_upgrade = 1
+				}
+				icon = "GFX_GER_basic_medium_tank_medium"
+			}
 		}
 		x = 76
 		y = 8
@@ -2415,7 +2823,27 @@ focus_tree = {
 		}
 		cost = 1.5
 		completion_reward = {
-
+			create_equipment_variant = {
+				name = "Pushilin Mark 4A2"
+				type = medium_tank_chassis_3
+				parent_version = 0
+				modules = {
+					main_armament_slot = tank_high_velocity_cannon_2
+					turret_type_slot = tank_medium_three_man_tank_turret
+					suspension_type_slot = tank_torsion_bar_suspension
+					armor_type_slot = tank_cast_armor
+					engine_type_slot = tank_diesel_engine
+					special_type_slot_1 = tank_radio_3
+					special_type_slot_2 = smoke_launchers
+					special_type_slot_3 = wet_ammo_storage
+					special_type_slot_4 = expanded_fuel_tank
+				}
+				upgrades = {
+					tank_nsb_engine_upgrade = 15
+					tank_nsb_armor_upgrade = 5
+				}
+				icon = "GFX_GER_basic_medium_tank_medium"
+			}
 		}
 		x = 78
 		y = 8
@@ -2435,7 +2863,27 @@ focus_tree = {
 		}
 		cost = 1.5
 		completion_reward = {
-
+			create_equipment_variant = {
+				name = "Pushilin Mark 4A3"
+				type = medium_tank_chassis_3
+				parent_version = 0
+				modules = {
+					main_armament_slot = tank_high_velocity_cannon_2
+					turret_type_slot = tank_medium_three_man_tank_turret
+					suspension_type_slot = tank_torsion_bar_suspension
+					armor_type_slot = tank_cast_armor
+					engine_type_slot = tank_diesel_engine
+					special_type_slot_1 = tank_radio_3
+					special_type_slot_2 = smoke_launchers
+					special_type_slot_3 = wet_ammo_storage
+					special_type_slot_4 = expanded_fuel_tank
+				}
+				upgrades = {
+					tank_nsb_engine_upgrade = 20
+					tank_nsb_armor_upgrade = 5
+				}
+				icon = "GFX_GER_basic_medium_tank_medium"
+			}
 		}
 		x = 80
 		y = 8
@@ -2455,7 +2903,27 @@ focus_tree = {
 		}
 		cost = 1.5
 		completion_reward = {
-
+			create_equipment_variant = {
+				name = "Pushilin Mark 4A4"
+				type = medium_tank_chassis_3
+				parent_version = 0
+				modules = {
+					main_armament_slot = tank_high_velocity_cannon_3
+					turret_type_slot = tank_medium_three_man_tank_turret
+					suspension_type_slot = tank_torsion_bar_suspension
+					armor_type_slot = tank_cast_armor
+					engine_type_slot = tank_diesel_engine
+					special_type_slot_1 = tank_radio_3
+					special_type_slot_2 = smoke_launchers
+					special_type_slot_3 = wet_ammo_storage
+					special_type_slot_4 = expanded_fuel_tank
+				}
+				upgrades = {
+					tank_nsb_engine_upgrade = 20
+					tank_nsb_armor_upgrade = 5
+				}
+				icon = "GFX_GER_basic_medium_tank_medium"
+			}
 		}
 		x = 82
 		y = 8
@@ -2463,7 +2931,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 	 }
-
+	 
 	 focus = { 
 		id = DPR_PM4A5
 		icon = GFX_BLR_appeal_to_people
@@ -2475,7 +2943,27 @@ focus_tree = {
 		}
 		cost = 1.5
 		completion_reward = {
-
+			create_equipment_variant = {
+				name = "Pushilin Mark 4A5"
+				type = medium_tank_chassis_3
+				parent_version = 0
+				modules = {
+					main_armament_slot = tank_high_velocity_cannon_3
+					turret_type_slot = tank_medium_three_man_tank_turret
+					suspension_type_slot = tank_christie_suspension
+					armor_type_slot = tank_cast_armor
+					engine_type_slot = tank_diesel_engine
+					special_type_slot_1 = tank_radio_3
+					special_type_slot_2 = smoke_launchers
+					special_type_slot_3 = wet_ammo_storage
+					special_type_slot_4 = expanded_fuel_tank
+				}
+				upgrades = {
+					tank_nsb_engine_upgrade = 20
+					tank_nsb_armor_upgrade = 5
+				}
+				icon = "GFX_GER_basic_medium_tank_medium"
+			}
 		}
 		x = 84
 		y = 8
@@ -2493,9 +2981,29 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-		cost = 20
+		cost = 10
 		completion_reward = {
-
+			create_equipment_variant = {
+				name = "Pushilin Mark 5"
+				type = modern_tank_chassis
+				parent_version = 0
+				modules = {
+					main_armament_slot = tank_high_velocity_cannon_1
+					turret_type_slot = tank_medium_three_man_tank_turret
+					suspension_type_slot = tank_christie_suspension
+					armor_type_slot = tank_cast_armor
+					engine_type_slot = tank_diesel_engine
+					special_type_slot_1 = tank_radio_3
+					special_type_slot_2 = smoke_launchers
+					special_type_slot_3 = wet_ammo_storage
+					special_type_slot_4 = expanded_fuel_tank
+				}
+				upgrades = {
+					tank_nsb_engine_upgrade = 1
+					tank_nsb_armor_upgrade = 1
+				}
+				icon = "GFX_GER_basic_medium_tank_medium"
+			}
 		}
 		x = 74
 		y = 9
@@ -2515,7 +3023,27 @@ focus_tree = {
 		}
 		cost = 1.5
 		completion_reward = {
-
+			create_equipment_variant = {
+				name = "Pushilin Mark 5A1"
+				type = modern_tank_chassis
+				parent_version = 0
+				modules = {
+					main_armament_slot = tank_high_velocity_cannon_2
+					turret_type_slot = tank_medium_three_man_tank_turret
+					suspension_type_slot = tank_christie_suspension
+					armor_type_slot = tank_cast_armor
+					engine_type_slot = tank_diesel_engine
+					special_type_slot_1 = tank_radio_3
+					special_type_slot_2 = smoke_launchers
+					special_type_slot_3 = wet_ammo_storage
+					special_type_slot_4 = expanded_fuel_tank
+				}
+				upgrades = {
+					tank_nsb_engine_upgrade = 4
+					tank_nsb_armor_upgrade = 1
+				}
+				icon = "GFX_GER_basic_medium_tank_medium"
+			}
 		}
 		x = 76
 		y = 9
@@ -2535,7 +3063,27 @@ focus_tree = {
 		}
 		cost = 1.5
 		completion_reward = {
-
+			create_equipment_variant = {
+				name = "Pushilin Mark 5A2"
+				type = modern_tank_chassis
+				parent_version = 0
+				modules = {
+					main_armament_slot = tank_high_velocity_cannon_3
+					turret_type_slot = tank_medium_three_man_tank_turret
+					suspension_type_slot = tank_christie_suspension
+					armor_type_slot = tank_cast_armor
+					engine_type_slot = tank_diesel_engine
+					special_type_slot_1 = tank_radio_3
+					special_type_slot_2 = smoke_launchers
+					special_type_slot_3 = wet_ammo_storage
+					special_type_slot_4 = expanded_fuel_tank
+				}
+				upgrades = {
+					tank_nsb_engine_upgrade = 4
+					tank_nsb_armor_upgrade = 1
+				}
+				icon = "GFX_GER_basic_medium_tank_medium"
+			}
 		}
 		x = 78
 		y = 9
@@ -2555,7 +3103,27 @@ focus_tree = {
 		}
 		cost = 1.5
 		completion_reward = {
-
+			create_equipment_variant = {
+				name = "Pushilin Mark 5A3"
+				type = modern_tank_chassis
+				parent_version = 0
+				modules = {
+					main_armament_slot = tank_high_velocity_cannon_3
+					turret_type_slot = tank_medium_three_man_tank_turret
+					suspension_type_slot = tank_christie_suspension
+					armor_type_slot = tank_cast_armor
+					engine_type_slot = tank_diesel_engine
+					special_type_slot_1 = tank_radio_3
+					special_type_slot_2 = smoke_launchers
+					special_type_slot_3 = wet_ammo_storage
+					special_type_slot_4 = expanded_fuel_tank
+				}
+				upgrades = {
+					tank_nsb_engine_upgrade = 15
+					tank_nsb_armor_upgrade = 1
+				}
+				icon = "GFX_GER_basic_medium_tank_medium"
+			}
 		}
 		x = 80
 		y = 9
@@ -2575,7 +3143,27 @@ focus_tree = {
 		}
 		cost = 1.5
 		completion_reward = {
-
+			create_equipment_variant = {
+				name = "Pushilin Mark 5A4"
+				type = modern_tank_chassis
+				parent_version = 0
+				modules = {
+					main_armament_slot = tank_high_velocity_cannon_3
+					turret_type_slot = tank_medium_three_man_tank_turret
+					suspension_type_slot = tank_christie_suspension
+					armor_type_slot = tank_cast_armor
+					engine_type_slot = tank_diesel_engine
+					special_type_slot_1 = tank_radio_3
+					special_type_slot_2 = smoke_launchers
+					special_type_slot_3 = wet_ammo_storage
+					special_type_slot_4 = expanded_fuel_tank
+				}
+				upgrades = {
+					tank_nsb_engine_upgrade = 20
+					tank_nsb_armor_upgrade = 4
+				}
+				icon = "GFX_GER_basic_medium_tank_medium"
+			}
 		}
 		x = 82
 		y = 9
@@ -2595,7 +3183,27 @@ focus_tree = {
 		}
 		cost = 1.5
 		completion_reward = {
-
+			create_equipment_variant = {
+				name = "Pushilin Mark 5A5"
+				type = modern_tank_chassis
+				parent_version = 0
+				modules = {
+					main_armament_slot = tank_high_velocity_cannon_3
+					turret_type_slot = tank_medium_three_man_tank_turret
+					suspension_type_slot = tank_christie_suspension
+					armor_type_slot = tank_cast_armor
+					engine_type_slot = tank_diesel_engine
+					special_type_slot_1 = tank_radio_3
+					special_type_slot_2 = smoke_launchers
+					special_type_slot_3 = wet_ammo_storage
+					special_type_slot_4 = expanded_fuel_tank
+				}
+				upgrades = {
+					tank_nsb_engine_upgrade = 20
+					tank_nsb_armor_upgrade = 5
+				}
+				icon = "GFX_GER_basic_medium_tank_medium"
+			}
 		}
 		x = 84
 		y = 9
