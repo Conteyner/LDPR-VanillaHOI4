@@ -237,7 +237,7 @@ characters = {
 				original_tag = DPR
 			}
 			available = {
-				has_government = denis_pushilin
+				
 			}
 			
 			traits = {

@@ -107,6 +107,305 @@ ideas = {
 			}
 		}
 
+		GTX1000 = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_idea_nato_instructors
+			modifier = {
+				production_factory_start_efficiency_factor = 0.1
+				production_factory_max_efficiency_factor = 0.1
+				production_factory_efficiency_gain_factor  = 0.1
+			}	
+		}
+
+		RTX2000 = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_idea_nato_instructors
+			modifier = {
+				production_factory_start_efficiency_factor = 0.13
+				production_factory_max_efficiency_factor = 0.13
+				production_factory_efficiency_gain_factor  = 0.13
+			}	
+		}
+
+		RTX3000 = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_idea_nato_instructors
+			modifier = {
+				production_factory_start_efficiency_factor = 0.2
+				production_factory_max_efficiency_factor = 0.2
+				production_factory_efficiency_gain_factor  = 0.2
+			}	
+		}
+
+		RTX4000 = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_idea_nato_instructors
+			modifier = {
+				production_factory_start_efficiency_factor = 0.3
+				production_factory_max_efficiency_factor = 0.3
+				production_factory_efficiency_gain_factor  = 0.3
+			}	
+		}
+
+		RTX5000 = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_idea_nato_instructors
+			modifier = {
+				production_factory_start_efficiency_factor = 0.5
+				production_factory_max_efficiency_factor = 0.5
+				production_factory_efficiency_gain_factor  = 0.5
+			}	
+		}
+
+		SandyBridge = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_idea_nato_instructors
+			modifier = {
+				research_speed_factor = 0.05
+			}
+		}
+
+		IvyBridge = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_idea_nato_instructors
+			modifier = {
+				research_speed_factor = 0.1
+			}
+		}
+
+		Haswell = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_idea_nato_instructors
+			modifier = {
+				research_speed_factor = 0.15
+			}
+		}
+
+		Broadwell = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_idea_nato_instructors
+			modifier = {
+				research_speed_factor = 0.3
+			}
+		}
+
+		Skylake = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_idea_nato_instructors
+			modifier = {
+				research_speed_factor = 0.5
+			}
+		}
+
+		KabyLake = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_idea_nato_instructors
+			modifier = {
+				research_speed_factor = 0.75
+			}
+		}
+
+		CoffeeLake = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_idea_nato_instructors
+			modifier = {
+				research_speed_factor = 0.75
+				production_speed_buildings_factor = 0.1
+			}
+		}
+
+		CoffeeLakeRefresh = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_idea_nato_instructors
+			modifier = {
+				research_speed_factor = 0.75
+				production_speed_buildings_factor = 0.3
+			}
+		}
+		CometLake = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_idea_nato_instructors
+			modifier = {
+				research_speed_factor = 0.8
+				production_speed_buildings_factor = 0.5
+			}
+		}
+
+		IceLake = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_idea_nato_instructors
+			modifier = {
+				research_speed_factor = 0.85
+				production_speed_buildings_factor = 0.55
+			}
+		}
+
+		TigerLake = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_idea_nato_instructors
+			modifier = {
+				research_speed_factor = 0.9
+				production_speed_buildings_factor = 0.6
+			}
+		}
+
+		AlderLake = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_idea_nato_instructors
+			modifier = {
+				research_speed_factor = 0.95
+				production_speed_buildings_factor = 0.7
+			}
+		}
+
+		
+		RaptorLake = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_idea_nato_instructors
+			modifier = {
+				research_speed_factor = 1
+				production_speed_buildings_factor = 0.8
+			}
+		}
+
+		RaptorLakeRefresh = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_idea_nato_instructors
+			modifier = {
+				research_speed_factor = 1.05
+				production_speed_buildings_factor = 0.9
+			}
+		}
+
+		MeteorLake = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_idea_nato_instructors
+			modifier = {
+				research_speed_factor = 1.05
+				production_speed_buildings_factor = 1
+			}
+		}
+
 
 		Young_country = {
 			allowed = {

@@ -42,5 +42,21 @@ country_event = {
 		
 		option = {
 			name = donetsk.3.a
+			kill_ideology_leader = fascism
 		}
 	}
+
+
+	country_event = {
+		id = donetsk.4
+		title = donetsk.4.t
+		desc = donetsk.4.d
+		picture = d
+	
+		is_triggered_only = yes
+		
+		option = {
+			name = donetsk.4.a
+		}
+	}
+	
