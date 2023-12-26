@@ -60,3 +60,91 @@ country_event = {
 		}
 	}
 	
+
+	#ENG dis
+	country_event = {
+		id = donetsk.5
+		title = donetsk.5.t
+		desc = donetsk.5.d
+		picture = d
+	
+		is_triggered_only = yes
+		
+		option = {
+			name = donetsk.5.a
+		}
+	}
+
+		#France dis
+		country_event = {
+			id = donetsk.6
+			title = donetsk.6.t
+			desc = donetsk.6.d
+			picture = d
+		
+			is_triggered_only = yes
+			
+			option = {
+				name = donetsk.6.a
+			}
+		}
+
+		
+		#USA dis
+		country_event = {
+			id = donetsk.7
+			title = donetsk.7.t
+			desc = donetsk.7.d
+			picture = d
+		
+			is_triggered_only = yes
+			
+			option = {
+				name = donetsk.7.a
+			}
+		}
+	
+
+		#ENG agr
+		country_event = {
+		id = donetsk.8
+		title = donetsk.8.t
+		desc = donetsk.8.d
+		picture = d
+	
+		is_triggered_only = yes
+		
+		option = {
+			name = donetsk.8.a
+		}
+	}
+
+		#France agr
+		country_event = {
+			id = donetsk.9
+			title = donetsk.9.t
+			desc = donetsk.9.d
+			picture = d
+		
+			is_triggered_only = yes
+			
+			option = {
+				name = donetsk.9.a
+			}
+		}
+
+		
+		#USA agr
+		country_event = {
+			id = donetsk.10
+			title = donetsk.10.t
+			desc = donetsk.10.d
+			picture = d
+		
+			is_triggered_only = yes
+			
+			option = {
+				name = donetsk.10.a
+			}
+		}
+	

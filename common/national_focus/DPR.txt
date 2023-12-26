@@ -3863,4 +3863,568 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 	 }
+	 focus = {
+		id = LDPR_Vstavaystrana
+		icon = d
+		cost = 2
+
+		available = {
+		
+			has_war = yes
+		
+		}
+		x = 30
+		y = 15
+		completion_reward = { 
+			add_war_support = 1
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 focus = {
+		id = LDPR_Mobilization
+		icon = ANLAk
+		cost = 2
+		prerequisite = {
+			focus = LDPR_Vstavaystrana
+		}
+		available = {
+			always = yes
+			has_war = yes
+
+		}
+		x = 26
+		y = 16
+		completion_reward = { 
+
+		add_ideas = all_adults_serve 
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 focus = {
+		id = LDPR_Nikakixblag
+		icon = ANLAk
+		cost = 2
+		prerequisite = {
+			focus = LDPR_Mobilization
+		}
+		available = {
+			always = yes
+			has_war = yes
+
+		}
+		x = 26
+		y = 17
+		completion_reward = {
+			add_ideas = scraping_the_barrel 
+		 }
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 focus = {
+		id = LDPR_Narodnoeopolchenie
+		icon = ANLAk
+		cost = 2
+		prerequisite = {
+			focus = LDPR_Vstavaystrana
+		}
+		available = {
+			always = yes
+			has_war = yes
+			
+		}
+		x = 30
+		y = 16
+		completion_reward = { 
+			load_oob = DPR_opolchenie
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 focus = {
+		id = LDPR_daytegroshi
+		icon = Unknown_gfx
+		cost = 2
+		prerequisite = {
+			focus = LDPR_Narodnoeopolchenie
+		}
+		available = {
+			always = yes
+			has_war = yes
+			NOT = {
+				has_war_with = ENG
+				has_war_with = FRA
+				has_war_with = USA
+			}
+		}
+		x = 30
+		y = 17
+		completion_reward = {
+
+			custom_effect_tooltip = LDPR_help_tt
+		
+			
+
+			hidden_effect = {
+			#hasnt ai
+			#US has Player
+			if = {
+				limit = { 
+					USA = {
+						is_ai = no
+					}
+				 }
+				 USA = {
+					country_event = usa.125
+				 }
+			}
+			
+			#FR has Player
+			if = {
+				limit = { 
+					FRA = {
+						is_ai = no
+					}
+				 }
+				 FRA = {
+					country_event = usa.125
+				 }
+			}
+
+			#EN has Player
+			if = {
+				limit = { 
+					ENG = {
+						is_ai = no
+					}
+				 }
+				 ENG = {
+					country_event = britain.50
+				 }
+			}
+
+
+			#has ai
+
+			#US-Answer
+			if = {
+				limit = {
+				USA = {
+					is_ai = yes
+					has_opinion = {
+						target = DPR
+						value > 0
+						value < 50
+					}
+				}
+			}
+			random_list = {
+				0.5 = {
+					add_equipment_to_stockpile = {
+						type = infantry_equipment
+						amount = 5000
+					}
+					add_equipment_to_stockpile = {
+						type = support_equipment
+						amount = 2500
+					}
+					add_equipment_to_stockpile = {
+						type = motorized_equipment
+						amount = 500
+					}
+					country_event = donetsk.10
+				}
+				0.5 = {
+					country_event = donetsk.7
+				}
+			}
+		}
+
+		if = {
+			limit = {
+			  USA = {
+				is_ai = yes
+				has_opinion = {
+					target = DPR
+					value < 0
+				}
+			}
+		}
+		random_list = {
+			0.25 = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 5000
+				}
+				add_equipment_to_stockpile = {
+					type = support_equipment
+					amount = 2500
+				}
+				add_equipment_to_stockpile = {
+					type = motorized_equipment
+					amount = 500
+				}
+				country_event = donetsk.10
+			}
+			0.75 = {
+				country_event = donetsk.7
+			}
+		}
+	}
+
+	if = {
+		limit = {
+		USA = {
+			is_ai = yes
+			has_opinion = {
+				target = DPR
+				value > 50
+			}
+		}
+	}
+	random_list = {
+		0.35 = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 10000
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 5000
+			}
+			add_equipment_to_stockpile = {
+				type = motorized_equipment
+				amount = 1000
+			}
+			add_equipment_to_stockpile = {
+				type = artillery_equipment
+				amount = 250
+			}
+			country_event = donetsk.10
+		}
+		0.5 = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 5000
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 2500
+			}
+			add_equipment_to_stockpile = {
+				type = motorized_equipment
+				amount = 500
+			}
+			country_event = donetsk.10
+		}
+		0.15 = {
+			country_event = donetsk.7
+		}
+	}
+}
+			#FR-Answer
+			if = {
+				limit = {
+				FRA = {
+					is_ai = yes
+					has_opinion = {
+						target = DPR
+						value > 0
+						value < 50
+					}
+				}
+			}
+			random_list = {
+				0.5 = {
+					add_equipment_to_stockpile = {
+						type = infantry_equipment
+						amount = 5000
+					}
+					add_equipment_to_stockpile = {
+						type = support_equipment
+						amount = 2500
+					}
+					add_equipment_to_stockpile = {
+						type = motorized_equipment
+						amount = 500
+					}
+					country_event = donetsk.9
+				}
+				0.5 = {
+					country_event = donetsk.6
+				}
+			}
+		}
+
+		if = {
+			limit = {
+			FRA = {
+				is_ai = yes
+				has_opinion = {
+					target = DPR
+					value < 0
+				}
+			}
+		}
+		random_list = {
+			0.25 = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 5000
+				}
+				add_equipment_to_stockpile = {
+					type = support_equipment
+					amount = 2500
+				}
+				add_equipment_to_stockpile = {
+					type = motorized_equipment
+					amount = 500
+				}
+				country_event = donetsk.9
+			}
+			0.75 = {
+				country_event = donetsk.6
+			}
+		}
+	}
+
+	if = {
+		limit = {
+		FRA = {
+			is_ai = yes
+			has_opinion = {
+				target = DPR
+				value > 50
+			}
+		}
+	}
+	random_list = {
+		0.35 = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 10000
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 5000
+			}
+			add_equipment_to_stockpile = {
+				type = motorized_equipment
+				amount = 1000
+			}
+			add_equipment_to_stockpile = {
+				type = artillery_equipment
+				amount = 250
+			}
+			country_event = donetsk.9
+		}
+		0.5 = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 5000
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 2500
+			}
+			add_equipment_to_stockpile = {
+				type = motorized_equipment
+				amount = 500
+			}
+			country_event = donetsk.9
+		}
+		0.15 = {
+			country_event = donetsk.6
+		}
+	}
+}
+
+			#GB-Answer
+			if = {
+				limit = {
+				ENG = {
+					is_ai = yes
+					has_opinion = {
+						target = DPR
+						value > 0
+						value < 50
+					}
+				}
+			}
+			random_list = {
+				0.5 = {
+					add_equipment_to_stockpile = {
+						type = infantry_equipment
+						amount = 5000
+					}
+					add_equipment_to_stockpile = {
+						type = support_equipment
+						amount = 2500
+					}
+					add_equipment_to_stockpile = {
+						type = motorized_equipment
+						amount = 500
+					}
+					country_event = donetsk.8
+				}
+				0.5 = {
+					country_event = donetsk.5
+				}
+			}
+		}
+
+		if = {
+			limit = {
+			ENG = {
+				is_ai = yes
+				has_opinion = {
+					target = DPR
+					value < 0
+				}
+			}
+		}
+		random_list = {
+			0.25 = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 5000
+				}
+				add_equipment_to_stockpile = {
+					type = support_equipment
+					amount = 2500
+				}
+				add_equipment_to_stockpile = {
+					type = motorized_equipment
+					amount = 500
+				}
+				country_event = donetsk.8
+			}
+			0.75 = {
+				country_event = donetsk.5
+			}
+		}
+	}
+
+
+		if = {
+			limit = {
+			ENG = {
+				is_ai = yes
+				has_opinion = {
+					target = DPR
+					value > 50
+				}
+			}
+		}
+		random_list = {
+			0.35 = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 10000
+				}
+				add_equipment_to_stockpile = {
+					type = support_equipment
+					amount = 5000
+				}
+				add_equipment_to_stockpile = {
+					type = motorized_equipment
+					amount = 1000
+				}
+				add_equipment_to_stockpile = {
+					type = artillery_equipment
+					amount = 250
+				}
+				country_event = donetsk.8
+			}
+			0.5 = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 5000
+				}
+				add_equipment_to_stockpile = {
+					type = support_equipment
+					amount = 2500
+				}
+				add_equipment_to_stockpile = {
+					type = motorized_equipment
+					amount = 500
+				}
+				country_event = donetsk.8
+			}
+			0.15 = {
+				country_event = donetsk.5
+			}
+		}
+	}
+		else = {
+			
+		}
+
+	}
+		
+
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+
+
+	 #
+
+
+	 focus = {
+		id = LDPR_mobprom
+		icon = ANLAk
+		cost = 2
+		prerequisite = {
+			focus = LDPR_Vstavaystrana
+		}
+		available = {
+			always = yes
+			has_war = yes
+
+		}
+		x = 34
+		y = 16
+		completion_reward = {
+			add_ideas = war_economy 
+		 }
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+
+	 focus = {
+		id = LDPR_3smeni
+		icon = ANLAk
+		cost = 2
+		prerequisite = {
+			focus = LDPR_Vstavaystrana
+		}
+		available = {
+			always = yes
+			has_war = yes
+
+		}
+		x = 34
+		y = 17
+		completion_reward = { 
+			add_ideas = tot_economic_mobilisation 
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
 }
