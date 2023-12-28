@@ -3479,7 +3479,7 @@ focus_tree = {
 		}
 		cost = 2
 		completion_reward = {
-			add_ideas = Sandy_Bridge
+			add_ideas = SandyBridge
 		}
 		x = 58
 		y = 4
@@ -3500,8 +3500,8 @@ focus_tree = {
 		}
 		cost = 2
 		completion_reward = {
-			remove_ideas = Sandy_Bridge
-			add_ideas = Ivy_Bridge
+			remove_ideas = SandyBridge
+			add_ideas = IvyBridge
 		}
 		x = 58
 		y = 5
@@ -3522,7 +3522,7 @@ focus_tree = {
 		}
 		cost = 2
 		completion_reward = {
-			remove_ideas = Ivy_Bridge
+			remove_ideas = IvyBridge
 			add_ideas = Haswell
 		}
 		x = 58
