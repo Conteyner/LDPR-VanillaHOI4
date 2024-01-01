@@ -34,6 +34,11 @@ focus = {
 			always = yes
 		}
 		cost = 2
+		mutually_exclusive = {
+			focus = LPR_democratickykold
+			focus = LPR_communismway
+		}
+	
 		prerequisite = {
 			focus = LPR_Lunopark_way
 		}
@@ -66,6 +71,11 @@ focus = {
 			FOCUS_FILTER_POLITICAL
 		}
 	 }
+
+
+	 
+
+
 
 	 	 	 focus = { 
 		id = LPR_ebnytpokursky
@@ -315,6 +325,10 @@ focus = {
 			always = yes
 		}
 		cost = 2
+		mutually_exclusive = {
+			focus = LPR_communismway
+			focus = LPR_Shizobaza
+		}
 		prerequisite = {
 			focus = LPR_Lunopark_way
 		}
@@ -328,6 +342,517 @@ focus = {
 		}
 	 }
 
+	 	 	 focus = { 
+		id = LPR_SocialDemos
+		icon = GFX_BLR_appeal_to_people
+		available = {
+			always = yes
+		}
+		cost = 2
+		mutually_exclusive = {
+			focus = LPR_ANKAP
+		}
+		prerequisite = {
+			focus = LPR_democratickykold
+		}
+		completion_reward = {
+			
+		}
+		x = 19
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 	 	 focus = { 
+		id = LPR_pasechnikslon
+		icon = GFX_BLR_appeal_to_people
+		available = {
+			always = yes
+		}
+		cost = 2
+		prerequisite = {
+			focus = LPR_SocialDemos
+		}
+		completion_reward = {
+			
+		}
+		x = 18
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 	  focus = { 
+		id = LPR_shaman
+		icon = GFX_BLR_appeal_to_people
+		available = {
+			always = yes
+		}
+		cost = 2
+		prerequisite = {
+			focus = LPR_pasechnikslon
+		}
+		completion_reward = {
+			
+		}
+		x = 18
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	  focus = { 
+		id = LPR_mizylina
+		icon = GFX_BLR_appeal_to_people
+		available = {
+			always = yes
+		}
+		cost = 2
+		prerequisite = {
+			focus = LPR_shaman
+		}
+		completion_reward = {
+			
+		}
+		x = 18
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 
+	  focus = { 
+		id = LPR_antohakaxo
+		icon = GFX_BLR_appeal_to_people
+		available = {
+			always = yes
+		}
+		cost = 2
+		prerequisite = {
+			focus = LPR_mizylina
+		}
+		completion_reward = {
+			
+		}
+		x = 18
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 focus = { 
+		id = LPR_andremeche
+		icon = GFX_BLR_appeal_to_people
+		available = {
+			always = yes
+		}
+		cost = 2
+		prerequisite = {
+			focus = LPR_antohakaxo
+		}
+		completion_reward = {
+			
+		}
+		x = 17
+		y = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 	 focus = { 
+		id = LPR_xzv
+		icon = GFX_BLR_appeal_to_people
+		available = {
+			always = yes
+		}
+		cost = 2
+		prerequisite = {
+			focus = LPR_antohakaxo
+		}
+		completion_reward = {
+			
+		}
+		x = 19
+		y = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+
+	  focus = { 
+		id = LPR_yarkokonchitwithxzv
+		icon = GFX_BLR_appeal_to_people
+		available = {
+			always = yes
+		}
+		cost = 2
+		prerequisite = {
+			focus = LPR_xzv
+			focus = LPR_andremeche
+		}
+		completion_reward = {
+			
+		}
+		x = 18
+		y = 9
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 	  focus = { 
+		id = LPR_fckoffallice
+		icon = GFX_BLR_appeal_to_people
+		available = {
+			always = yes
+		}
+		cost = 2
+		prerequisite = {
+			focus = LPR_xzv
+			focus = LPR_andremeche
+		}
+
+		mutually_exclusive = {
+			focus = LPR_jointoallice
+		}
+		completion_reward = {
+			
+		}
+		x = 18
+		y = 11
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 	 	 	 focus = { 
+		id = LPR_demokratizacia
+		icon = GFX_BLR_appeal_to_people
+		available = {
+			always = yes
+		}
+		cost = 2
+		prerequisite = {
+			focus = LPR_SocialDemos
+		}
+		completion_reward = {
+			
+		}
+		x = 21
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	  	 	 	 focus = { 
+		id = LPR_idinaxy
+		icon = GFX_BLR_appeal_to_people
+		available = {
+			always = yes
+		}
+		cost = 2
+		prerequisite = {
+			focus = LPR_demokratizacia
+		}
+		completion_reward = {
+			
+		}
+		x = 21
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 	  	 	 	 focus = { 
+		id = LPR_friendDPR
+		icon = GFX_BLR_appeal_to_people
+		available = {
+			always = yes
+		}
+		cost = 2
+		prerequisite = {
+			focus = LPR_idinaxy
+		}
+		completion_reward = {
+			
+		}
+		x = 21
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 	 	  	 	 	 focus = { 
+		id = LPR_zapretstalina
+		icon = GFX_BLR_appeal_to_people
+		available = {
+			always = yes
+		}
+		cost = 2
+		prerequisite = {
+			focus = LPR_friendDPR
+		}
+		completion_reward = {
+			
+		}
+		x = 21
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	  	  	 	 	 focus = { 
+		id = LPR_pmcgnom
+		icon = GFX_BLR_appeal_to_people
+		available = {
+			always = yes
+		}
+		cost = 2
+		prerequisite = {
+			focus = LPR_zapretstalina
+		}
+		completion_reward = {
+			
+		}
+		x = 22
+		y = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 	  	  	 	 	 focus = { 
+		id = LPR_killgrisha
+		icon = GFX_BLR_appeal_to_people
+		available = {
+			always = yes
+		}
+		cost = 2
+		prerequisite = {
+			focus = LPR_pmcgnom
+		}
+		completion_reward = {
+			
+		}
+		x = 22
+		y = 9
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 	  	  	 	 	 focus = { 
+		id = LPR_jointoallice
+		icon = GFX_BLR_appeal_to_people
+		available = {
+			always = yes
+		}
+		cost = 2
+		prerequisite = {
+			focus = LPR_killgrisha
+		}
+		mutually_exclusive = {
+			focus = LPR_fckoffallice
+		}
+		completion_reward = {
+			
+		}
+		x = 21
+		y = 11
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+
+
+	 	 	 focus = { 
+		id = LPR_ANKAP
+		icon = GFX_BLR_appeal_to_people
+		available = {
+			always = yes
+		}
+		cost = 2
+		mutually_exclusive = {
+			focus = LPR_SocialDemos
+		}
+		prerequisite = {
+			focus = LPR_democratickykold
+		}
+		completion_reward = {
+			
+		}
+		x = 13
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 	 	focus = { 
+		id = LPR_Anarchokapitalista
+		icon = GFX_BLR_appeal_to_people
+		available = {
+			always = yes
+		}
+		cost = 2
+	
+		prerequisite = {
+			focus = LPR_ANKAP
+		}
+		completion_reward = {
+			
+		}
+		x = 13
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	  	 	focus = { 
+		id = LPR_PMCPOLICE
+		icon = GFX_BLR_appeal_to_people
+		available = {
+			always = yes
+		}
+		cost = 2
+	
+		prerequisite = {
+			focus = LPR_ANKAP
+		}
+		completion_reward = {
+			
+		}
+		x = 15
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	   	 	focus = { 
+		id = LPR_hardware
+		icon = GFX_BLR_appeal_to_people
+		available = {
+			always = yes
+		}
+		cost = 2
+	
+		prerequisite = {
+			focus = LPR_PMCPOLICE
+			focus = LPR_Anarchokapitalista
+		}
+		completion_reward = {
+			
+		}
+		x = 15
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 	   	 	focus = { 
+		id = LPR_enviloup
+		icon = GFX_BLR_appeal_to_people
+		available = {
+			always = yes
+		}
+		cost = 2
+	
+		prerequisite = {
+			focus = LPR_hardware
+		}
+		completion_reward = {
+			
+		}
+		x = 15
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 	 	   	 	focus = { 
+		id = LPR_medik
+		icon = GFX_BLR_appeal_to_people
+		available = {
+			always = yes
+		}
+		cost = 2
+	
+		prerequisite = {
+			focus = LPR_enviloup
+		}
+		completion_reward = {
+			
+		}
+		x = 13
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	  	   	 	focus = { 
+		id = LPR_PMCschool
+		icon = GFX_BLR_appeal_to_people
+		available = {
+			always = yes
+		}
+		cost = 2
+	
+		prerequisite = {
+			focus = LPR_medik
+		}
+		completion_reward = {
+			
+		}
+		x = 13
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 	focus = { 
+		id = LPR_CancelGos
+		icon = GFX_BLR_appeal_to_people
+		available = {
+			always = yes
+		}
+		cost = 2
+	
+		prerequisite = {
+			focus = LPR_PMCschool
+			focus = LPR_enviloup
+
+		}
+		completion_reward = {
+			
+		}
+		x = 15
+		y = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+
+
 	 	 focus = { 
 		id = LPR_communismway
 		icon = GFX_BLR_appeal_to_people
@@ -335,6 +860,10 @@ focus = {
 			always = yes
 		}
 		cost = 2
+		mutually_exclusive = {
+			focus = LPR_democratickykold
+			focus = LPR_Shizobaza
+		}
 		prerequisite = {
 			focus = LPR_Lunopark_way
 		}
@@ -347,6 +876,178 @@ focus = {
 			FOCUS_FILTER_POLITICAL
 		}
 	 }
+
+	  	 focus = { 
+		id = LPR_attackthedpr
+		icon = GFX_BLR_appeal_to_people
+		available = {
+			always = yes
+		}
+		cost = 2
+		prerequisite = {
+			focus = LPR_communismway
+		}
+		completion_reward = {
+			
+		}
+		x = 24
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	   	 focus = { 
+		id = LPR_enociddpr
+		icon = GFX_BLR_appeal_to_people
+		available = {
+			always = yes
+		}
+		cost = 2
+		prerequisite = {
+			focus = LPR_attackthedpr
+		}
+		completion_reward = {
+			
+		}
+		x = 24
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	    	 focus = { 
+		id = LPR_smazliviepionery
+		icon = GFX_BLR_appeal_to_people
+		available = {
+			always = yes
+		}
+		cost = 2
+		prerequisite = {
+			focus = LPR_communismway
+		}
+		completion_reward = {
+			
+		}
+		x = 26
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	    	 focus = { 
+		id = LPR_plodites
+		icon = GFX_BLR_appeal_to_people
+		available = {
+			always = yes
+		}
+		cost = 2
+		prerequisite = {
+			focus = LPR_smazliviepionery
+		}
+		completion_reward = {
+			
+		}
+		x = 26
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 	  	 focus = { 
+		id = LPR_helpfromuussr
+		icon = GFX_BLR_appeal_to_people
+		available = {
+			always = yes
+		}
+		cost = 2
+		prerequisite = {
+			focus = LPR_communismway
+		}
+		completion_reward = {
+			
+		}
+		x = 28
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 	  	 focus = { 
+		id = LPR_minetstaliny
+		icon = GFX_BLR_appeal_to_people
+		available = {
+			always = yes
+		}
+		cost = 2
+		prerequisite = {
+			focus = LPR_helpfromuussr
+		}
+		completion_reward = {
+			
+		}
+		x = 28
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	   	 focus = { 
+		id = LPR_fckUSSR
+		icon = GFX_BLR_appeal_to_people
+		available = {
+			always = yes
+		}
+		cost = 2
+		prerequisite = {
+			focus = LPR_minetstaliny
+			focus = LPR_enociddpr
+			focus = LPR_plodites
+		}
+		completion_reward = {
+			
+		}
+		x = 28
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 
+	   	 focus = { 
+		id = LPR_OHYESBIGSOVIETDADDY
+		icon = GFX_BLR_appeal_to_people
+		available = {
+			always = yes
+		}
+		cost = 2
+		mutually_exclusive = {
+			focus = LPR_fckUSSR
+		}
+		prerequisite = {
+			focus = LPR_minetstaliny
+			focus = LPR_enociddpr
+			focus = LPR_plodites
+		}
+		completion_reward = {
+			
+		}
+		x = 24
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 
+
+
 
 
 }
