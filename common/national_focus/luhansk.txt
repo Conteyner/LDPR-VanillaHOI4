@@ -1050,4 +1050,181 @@ focus = {
 
 
 
+	   	 focus = { 
+		id = LPR_techrep
+		icon = GFX_BLR_appeal_to_people
+		available = {
+			always = yes
+		}
+		cost = 2
+		completion_reward = {
+			
+		}
+		x = 37
+		y = 0
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	    	 focus = { 
+		id = LPR_AMD
+		icon = GFX_BLR_appeal_to_people
+		available = {
+			always = yes
+		}
+		prerequisite = {
+			 focus = LPR_techrep
+		}
+		cost = 2
+		completion_reward = {
+			
+		}
+		x = 37
+		y = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	  	 focus = { 
+		id = LPR_RyzenZen
+		icon = GFX_BLR_appeal_to_people
+		available = {
+			always = yes
+		}
+		prerequisite = {
+			 focus = LPR_AMD
+		}
+		cost = 2
+		completion_reward = {
+			
+		}
+		x = 37
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 	  	 focus = { 
+		id = LPR_RyzenZen2
+		icon = GFX_BLR_appeal_to_people
+		available = {
+			always = yes
+		}
+		prerequisite = {
+			 focus = LPR_RyzenZen
+		}
+		cost = 2
+		completion_reward = {
+			
+		}
+		x = 37
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 	  	 focus = { 
+		id = LPR_RyzenZen3
+		icon = GFX_BLR_appeal_to_people
+		available = {
+			always = yes
+		}
+		prerequisite = {
+			 focus = LPR_RyzenZen2
+		}
+		cost = 2
+		completion_reward = {
+			
+		}
+		x = 37
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 	  	 focus = { 
+		id = LPR_RyzenZen4
+		icon = GFX_BLR_appeal_to_people
+		available = {
+			always = yes
+		}
+		prerequisite = {
+			 focus = LPR_RyzenZen3
+		}
+		cost = 2
+		completion_reward = {
+			
+		}
+		x = 37
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 	  	 focus = { 
+		id = LPR_RyzenZen5
+		icon = GFX_BLR_appeal_to_people
+		available = {
+			always = yes
+		}
+		prerequisite = {
+			 focus = LPR_RyzenZen4
+		}
+		cost = 2
+		completion_reward = {
+			
+		}
+		x = 37
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 	   	 focus = { 
+		id = LPR_elefantsamolety
+		icon = GFX_BLR_appeal_to_people
+		available = {
+			always = yes
+		}
+		cost = 2
+		prerequisite = {
+			focus = LPR_techrep
+		}
+		completion_reward = {
+			
+		}
+		x = 35
+		y = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
+	 	 	   	 focus = { 
+		id = LPR_bayraktarsbivty
+		icon = GFX_BLR_appeal_to_people
+		available = {
+			always = yes
+		}
+		cost = 2
+		prerequisite = {
+			focus = LPR_elefantsamolety
+		}
+		completion_reward = {
+			
+		}
+		x = 35
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	 }
+
 }
