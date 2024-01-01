@@ -6,6 +6,11 @@ on_actions = {
 	modifier = Donbass_Promzona
 }
 }
+	228 = { 
+	add_dynamic_modifier = { 
+	modifier = Donbass_Promzona
+}
+}
 }
 }
 }
