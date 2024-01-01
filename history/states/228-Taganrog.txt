@@ -2,25 +2,40 @@
 state={
 	id=228
 	name="STATE_228" # Voroshilovgrad
-	manpower = 2167411
+	manpower = 3167411
 	
 	state_category = town
+
+	resources={
+		steel = 12
+		aluminium = 45
+		tungsten = 30
+		oil = 13
+	 }
 
 	history={
 		owner = LPR
 		victory_points = {
-			9461 10
+			9461 40
 		}
 		buildings = {
 			infrastructure = 3 #was: 5
 		}
+		victory_points = {6505 25}
+		victory_points = {6519 10}
+		victory_points = {11487 2}
+		victory_points = {523 3}
+		victory_points = {9476 5}
 		add_core_of = SOV
 		add_core_of = LPR
 	}
 
+	
+
 	provinces={
 		523 547 570 6505 6519 9446 9461 9476 11487 11513 
 	}
+
 
 	local_supplies=0.0 
 }
