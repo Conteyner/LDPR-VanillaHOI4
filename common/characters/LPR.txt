@@ -1,0 +1,472 @@
+characters = {
+    Leonid_Pasechnik = {
+        name = Leonid_Pasechnik
+        portraits = {
+			civilian = {
+				#Custom image for Denis Pushilin
+				#large = "/gfx/leaders/DPR/UaLViJAT-9409.dds"
+			}
+		}
+        country_leader = {
+			expire = "1990.1.1"
+			ideology = liberalism
+			traits = { Leonid_Pasechnik }
+		}
+    }
+    Soviet_great_party = {
+        name = Soviet_great_party
+        portraits = {
+			civilian = {
+				#Custom image for Denis Pushilin
+				#large = "/gfx/leaders/DPR/UaLViJAT-9409.dds"
+			}
+		}
+        country_leader = {
+			expire = "1990.1.1"
+			ideology = marxism
+			traits = { Soviet_great_party }
+		}
+    }
+
+       Alexey_Milchakov = {
+        name = Alexey_Milchakov
+        portraits = {
+			civilian = {
+				#Custom image for Denis Pushilin
+				#large = "/gfx/leaders/DPR/UaLViJAT-9409.dds"
+			}
+		}
+        country_leader = {
+			expire = "1990.1.1"
+			ideology = nazism
+			traits = { Alexey_Milchakov }
+		}
+    }
+
+    Vladlen_Tatarskiy = {
+        name = Vladlen_Tatarskiy
+        portraits = {
+			civilian = {
+				#Custom image for Denis Pushilin
+				#large = "/gfx/leaders/DPR/UaLViJAT-9409.dds"
+			}
+		}
+        country_leader = {
+			expire = "1990.1.1"
+			ideology = moderatism
+			traits = { Vladlen_Tatarskiy }
+		}
+    }
+    Ivan_Zolo = {
+        name = Ivan_Zolo
+		portraits = {
+			civilian = {
+				small = ""
+			}
+		}
+        	advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = Ivan_Zolo
+			allowed = {
+				original_tag = LPR
+			}
+			
+			traits = {
+				Ivan_Zolo
+			}
+		}
+
+    }
+
+        Vlad_Badabym = {
+        name = Vlad_Badabym
+		portraits = {
+			civilian = {
+				small = ""
+			}
+		}
+        	advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = Vlad_Badabym
+			allowed = {
+				original_tag = LPR
+			}
+			
+			traits = {
+				Vlad_Badabym
+			}
+		}
+
+    }
+
+
+       Lesem_Podervyanskim = {
+        name = Lesem_Podervyanskim
+		portraits = {
+			civilian = {
+				small = ""
+			}
+		}
+        	advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = Lesem_Podervyanskim
+			allowed = {
+				original_tag = LPR
+			}
+			
+			traits = {
+				Lesem_Podervyanskim
+			}
+		}
+
+    }
+
+        Javier_Milei = {
+        name = Javier_Milei
+		portraits = {
+			civilian = {
+				small = ""
+			}
+		}
+        	advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = Javier_Milei
+			allowed = {
+				original_tag = LPR
+			}
+			
+			traits = {
+				Javier_Milei
+			}
+		}
+
+    }
+
+        Shaman = {
+        name = Shaman
+		portraits = {
+			civilian = {
+				small = ""
+			}
+		}
+        	advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = Shaman
+			allowed = {
+				original_tag = LPR
+			}
+			
+			traits = {
+				Shaman
+			}
+		}
+    }
+
+         Mizylina = {
+        name = Mizylina
+		portraits = {
+			civilian = {
+				small = ""
+			}
+		}
+        	advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = Mizylina
+			allowed = {
+				original_tag = LPR
+			}
+			
+			traits = {
+				Mizylina
+			}
+		}
+    }
+
+        Antaho_Kaxovskiy = {
+        name = Antaho_Kaxovskiy
+		portraits = {
+			civilian = {
+				small = ""
+			}
+		}
+        	advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = Antaho_Kaxovskiy
+			allowed = {
+				original_tag = LPR
+			}
+			
+			traits = {
+				Antaho_Kaxovskiy
+			}
+		}
+    }
+
+     Andrey_Mecheniy = {
+        name = Andrey_Mecheniy
+		portraits = {
+			civilian = {
+				small = ""
+			}
+		}
+        	advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = Andrey_Mecheniy
+			allowed = {
+				original_tag = LPR
+			}
+			
+			traits = {
+				Andrey_Mecheniy
+			}
+		}
+    }
+
+         XZV = {
+        name = XZV
+		portraits = {
+			civilian = {
+				small = ""
+			}
+		}
+        	advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = XZV
+			allowed = {
+				original_tag = LPR
+			}
+			
+			traits = {
+				XZV
+			}
+		}
+    }
+
+        kussia = {
+        name = kussia
+		portraits = {
+			civilian = {
+				small = ""
+			}
+		}
+        	advisor={
+			cost = 100
+			slot = political_advisor
+			idea_token = kussia
+			allowed = {
+				original_tag = LPR
+			}
+			
+			traits = {
+				kussia
+			}
+		}
+    }
+
+    #WAR ELEFANT
+
+    	oleg_tsaryov = {
+		name = oleg_tsaryov
+		portraits = {
+			army = {
+				small = ""
+			}
+			army = {
+				large = ""
+			}
+		}
+		field_marshal={
+			traits={
+				brilliant_strategist
+				career_officer
+				trait_engineer 
+				fortress_buster
+		    }
+			skill=1
+			attack_skill=2
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=5
+		}
+		advisor={
+			cost = 100
+			slot = high_command
+			idea_token = oleg_tsaryov
+			allowed = {
+				original_tag = LPR
+			}
+			available = {
+			}
+			
+			traits = {
+				cenitel_volynskoy_reyzni
+			}
+		}
+	}
+
+
+    	kirill_stremousov = {
+		name = kirill_stremousov
+		portraits = {
+			army = {
+				small = ""
+			}
+			army = {
+				large = ""
+			}
+		}
+		field_marshal={
+			traits={
+				brilliant_strategist
+				trait_engineer 
+				fortress_buster
+		    }
+			skill=1
+			attack_skill=2
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=2
+		}
+		advisor={
+			cost = 100
+			slot = high_command
+			idea_token = kirill_stremousov
+			allowed = {
+				original_tag = LPR
+			}
+			available = {
+			}
+			
+			traits = {
+				zaxistnik_xersonskoy_oblasti
+			}
+		}
+	}
+
+        Akim_Apachev = {
+		name = Akim_Apachev
+		portraits = {
+			army = {
+				small = ""
+			}
+			army = {
+				large = ""
+			}
+		}
+		field_marshal={
+			traits={
+				brilliant_strategist
+				trait_engineer 
+				fortress_buster
+		    }
+			skill=1
+			attack_skill=2
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+		}
+		advisor={
+			cost = 100
+			slot = high_command
+			idea_token = Akim_Apachev
+			allowed = {
+				original_tag = LPR
+			}
+			available = {
+			}
+			
+			traits = {
+				Myzikant
+			}
+		}
+	}
+
+
+    Sergei_Gorenko = {
+		name = Sergei_Gorenko
+		portraits = {
+			army = {
+				small = ""
+			}
+			army = {
+				large = ""
+			}
+		}
+		field_marshal={
+			traits={
+				brilliant_strategist
+				trait_engineer 
+				fortress_buster
+		    }
+			skill=1
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+		}
+		advisor={
+			cost = 100
+			slot = high_command
+			idea_token = Sergei_Gorenko
+			allowed = {
+				original_tag = LPR
+			}
+			available = {
+			}
+			
+			traits = {
+				Karlik
+			}
+		}
+	}
+
+
+
+    Anatoliy_Shariy = {
+		name = Anatoliy_Shariy
+		portraits = {
+			army = {
+				small = ""
+			}
+			army = {
+				large = ""
+			}
+		}
+		field_marshal={
+			traits={
+				brilliant_strategist
+				trait_engineer 
+		    }
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+		}
+		advisor={
+			cost = 100
+			slot = high_command
+			idea_token = Anatoliy_Shariy
+			allowed = {
+				original_tag = LPR
+			}
+			available = {
+			}
+			
+			traits = {
+				Psinoeb
+			}
+		}
+	}
+
+ 
+}

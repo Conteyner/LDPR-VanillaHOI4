@@ -261,7 +261,7 @@ focus = {
 			focus = LPR_Shizobaza
 		}
 		completion_reward = {
-			# recruit_character = 
+			 recruit_character = Ivan_Zolo
 		}
 		x = 10
 		y = 3
@@ -282,7 +282,7 @@ focus = {
 			focus = LPR_ivanzolo
 		}
 		completion_reward = {
-			# recruit_character = 
+			recruit_character = Vlad_Badabym
 		}
 		x = 10
 		y = 4
@@ -327,6 +327,7 @@ focus = {
 		available = {
 			always = yes
 		}
+
 		cost = 2
 		prerequisite = {
 			focus = LPR_orshowmecommunism
@@ -342,6 +343,7 @@ focus = {
 			ideology = communism
 			popularity = -0.3
 		}
+		recruit_character = Lesem_Podervyanskim #Или покажите коммунизм или идите нахуй
 		}
 		x = 10
 		y = 6
@@ -392,7 +394,7 @@ focus = {
 			focus = LPR_democratickykold
 		}
 		completion_reward = {
-
+			recruit_character = Javier_Milei
 		}
 		x = 19
 		y = 3
@@ -413,7 +415,7 @@ focus = {
 			focus = LPR_SocialDemos
 		}
 		completion_reward = {
-			#recruit_character = 
+			recruit_character = Shaman
 		}
 		x = 18
 		y = 4
@@ -433,7 +435,7 @@ focus = {
 			focus = LPR_shaman
 		}
 		completion_reward = {
-			#recruit_character = 
+			recruit_character = Mizylina
 		}
 		x = 18
 		y = 5
@@ -454,7 +456,7 @@ focus = {
 			focus = LPR_mizylina
 		}
 		completion_reward = {
-			#recruit_character = 
+			recruit_character = Antaho_Kaxovskiy
 		}
 		x = 18
 		y = 6
@@ -474,7 +476,7 @@ focus = {
 			focus = LPR_antohakaxo
 		}
 		completion_reward = {
-			#recruit_character = 
+			recruit_character = Andrey_Mecheniy
 		}
 		x = 17
 		y = 8
@@ -494,7 +496,7 @@ focus = {
 			focus = LPR_antohakaxo
 		}
 		completion_reward = {
-			#recruit_character = 
+			recruit_character = XZV
 		}
 		x = 19
 		y = 8
@@ -516,7 +518,7 @@ focus = {
 			focus = LPR_andremeche
 		}
 		completion_reward = {
-			#recruit_character = 
+		
 		}
 		x = 18
 		y = 9

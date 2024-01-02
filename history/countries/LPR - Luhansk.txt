@@ -8,29 +8,16 @@ set_stability = 0.45
 
 set_war_support = 0.15
 
-#recruit_character = denis_pushilin
-#recruit_character = great_party
-#recruit_character = girkin_strelkov
-#recruit_character = Cago
-#recruit_character = Crico
-#recruit_character = Estripper
-#recruit_character = orest_luty
-#recruit_character = kiva_kivovich
-#recruit_character = alex_parker
-#recruit_character = boykisser
-#recruit_character = bdzmil
-#recruit_character = morginal
-#recruit_character = ezik_lisichkin
-#recruit_character = zdanov
-#recruit_character = strategdivannogolegiona
-#recruit_character = prigozin_zhenya
-#recruit_character = grisha_putin
-#recruit_character = aleksandr_hodakovskiy
-#recruit_character = konstantin_kuzmin
-#recruit_character = alexey_dikiy
-#recruit_character = edward_basurin
-#recruit_character = vladimir_joga
-
+recruit_character = Anatoliy_Shariy
+recruit_character = Sergei_Gorenko
+recruit_character = Akim_Apachev
+recruit_character = kirill_stremousov
+recruit_character = oleg_tsaryov
+recruit_character = kussia
+recruit_character = Leonid_Pasechnik
+recruit_character = Soviet_great_party
+recruit_character = Alexey_Milchakov
+recruit_character = Vladlen_Tatarskiy
 
 
 add_political_power = 100
