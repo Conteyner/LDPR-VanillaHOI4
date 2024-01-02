@@ -744,6 +744,7 @@ focus = {
 		}
 		completion_reward = {
 			add_ideas = LPR_Anarchokapitalista
+			recruit_character = Javier_Milei
 		}
 		x = 13
 		y = 4

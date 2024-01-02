@@ -20,6 +20,8 @@ state={
 		}
 		buildings = {
 			infrastructure = 3 #was: 5
+			industrial_complex = 3
+			arms_factory = 1
 		}
 		victory_points = {6505 25}
 		victory_points = {6519 10}
@@ -29,6 +31,8 @@ state={
 		add_core_of = SOV
 		add_core_of = LPR
 	}
+
+	
 
 	
 

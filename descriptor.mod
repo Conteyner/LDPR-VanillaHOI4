@@ -1,4 +1,4 @@
-version="0.0.1"
+version="0.1A Stable"
 tags={
 	"National Focuses"
 	"Map"
@@ -15,6 +15,6 @@ name="Donbass DEV"
 replace_path="history/countries"
 replace_path="history/units"
 replace_path="map/strategicregions"
-
+picture = "thumbnail.png"
 
 supported_version="1.13.6"
