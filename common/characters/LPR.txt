@@ -95,7 +95,7 @@ characters = {
 			}
 			
 			traits = {
-				Vlad_Badabym
+				My_Jaggernaut
 			}
 		}
 
@@ -118,7 +118,7 @@ characters = {
 			}
 			
 			traits = {
-				Lesem_Podervyanskim
+				Fanat_communizma
 			}
 		}
 
@@ -140,7 +140,7 @@ characters = {
 			}
 			
 			traits = {
-				Javier_Milei
+				Anarchokapitalista
 			}
 		}
 
@@ -162,7 +162,7 @@ characters = {
 			}
 			
 			traits = {
-				Shaman
+				Russkiy
 			}
 		}
     }
@@ -183,7 +183,7 @@ characters = {
 			}
 			
 			traits = {
-				Mizylina
+				Goryachaya_Shtycka
 			}
 		}
     }
@@ -204,7 +204,7 @@ characters = {
 			}
 			
 			traits = {
-				Antaho_Kaxovskiy
+				Kaxovskiy_potz
 			}
 		}
     }
@@ -225,7 +225,7 @@ characters = {
 			}
 			
 			traits = {
-				Andrey_Mecheniy
+				Mecheniy
 			}
 		}
     }
@@ -267,7 +267,7 @@ characters = {
 			}
 			
 			traits = {
-				kussia
+				eykashakasha
 			}
 		}
     }
@@ -308,7 +308,7 @@ characters = {
 			}
 			
 			traits = {
-				cenitel_volynskoy_reyzni
+				prosto_slon
 			}
 		}
 	}
@@ -347,7 +347,7 @@ characters = {
 			}
 			
 			traits = {
-				zaxistnik_xersonskoy_oblasti
+				prosto_slon
 			}
 		}
 	}
@@ -385,7 +385,7 @@ characters = {
 			}
 			
 			traits = {
-				Myzikant
+				prosto_slon
 			}
 		}
 	}
@@ -424,7 +424,7 @@ characters = {
 			}
 			
 			traits = {
-				Karlik
+				prosto_slon
 			}
 		}
 	}
@@ -463,7 +463,7 @@ characters = {
 			}
 			
 			traits = {
-				Psinoeb
+				prosto_slon
 			}
 		}
 	}
