@@ -10,7 +10,11 @@ news_event = {
 	
 	option = {
 		name = Luhansk.1.a
+<<<<<<< Updated upstream
         220 = { add_manpower = -500}
+=======
+
+>>>>>>> Stashed changes
 	}
 }
 
@@ -25,7 +29,10 @@ news_event = {
 	
 	option = {
 		name = Luhansk.2.a
+<<<<<<< Updated upstream
         240 = { add_manpower = -500}
+=======
+>>>>>>> Stashed changes
 	}
 }
 
@@ -39,8 +46,11 @@ news_event = {
 	
 	option = {
 		name = Luhansk.3.a
+<<<<<<< Updated upstream
         195 = { add_manpower = -500}
 
+=======
+>>>>>>> Stashed changes
 	}
 }
 
@@ -54,6 +64,9 @@ news_event = {
 	
 	option = {
 		name = Luhansk.4.a
+<<<<<<< Updated upstream
         219 = { add_manpower = -500}
+=======
+>>>>>>> Stashed changes
 	}
 }
