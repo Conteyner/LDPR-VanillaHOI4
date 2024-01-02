@@ -1,0 +1,59 @@
+add_namespace = Luhansk
+
+news_event = {
+	id = Luhansk.1
+	title = Luhansk.1.t
+	desc = Luhansk.1.d
+	picture = d
+
+	is_triggered_only = yes
+	
+	option = {
+		name = Luhansk.1.a
+        220 = { add_manpower = -500}
+	}
+}
+
+
+news_event = {
+	id = Luhansk.2
+	title = Luhansk.2.t
+	desc = Luhansk.2.d
+	picture = d
+
+	is_triggered_only = yes
+	
+	option = {
+		name = Luhansk.2.a
+        240 = { add_manpower = -500}
+	}
+}
+
+news_event = {
+	id = Luhansk.3
+	title = Luhansk.3.t
+	desc = Luhansk.3.d
+	picture = d
+
+	is_triggered_only = yes
+	
+	option = {
+		name = Luhansk.3.a
+        195 = { add_manpower = -500}
+
+	}
+}
+
+news_event = {
+	id = Luhansk.4
+	title = Luhansk.4.t
+	desc = Luhansk.4.d
+	picture = d
+
+	is_triggered_only = yes
+	
+	option = {
+		name = Luhansk.4.a
+        219 = { add_manpower = -500}
+	}
+}
