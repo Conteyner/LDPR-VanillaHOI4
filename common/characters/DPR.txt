@@ -4,8 +4,8 @@ characters = {
 		name = denis_pushilin
 		portraits = {
 			civilian = {
-				#Custom image for Denis Pushilin
-				#large = "/gfx/leaders/DPR/UaLViJAT-9409.dds"
+				large = "GFX_Penis_Chepyshilin"
+				small = "GFX_Penis_Chepyshilin"
 			}
 		}
 		country_leader = {
@@ -371,7 +371,7 @@ characters = {
 		name = strategdivannogolegiona
 		portraits = {
 			civilian = {
-				small = ""
+				small = "/gfx/leaders/DPR/glinostrategium.dds"
 			}
 		}
 		advisor={

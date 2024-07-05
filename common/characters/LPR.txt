@@ -3,8 +3,7 @@ characters = {
         name = Leonid_Pasechnik
         portraits = {
 			civilian = {
-				#Custom image for Denis Pushilin
-				#large = "/gfx/leaders/DPR/UaLViJAT-9409.dds"
+				large = "/gfx/leaders/DPR/Pasechnik.dds"
 			}
 		}
         country_leader = {
@@ -17,8 +16,7 @@ characters = {
         name = Soviet_great_party
         portraits = {
 			civilian = {
-				#Custom image for Denis Pushilin
-				#large = "/gfx/leaders/DPR/UaLViJAT-9409.dds"
+				large = "/gfx/leaders/DPR/great_party.dds"
 			}
 		}
         country_leader = {
@@ -32,8 +30,7 @@ characters = {
         name = Alexey_Milchakov
         portraits = {
 			civilian = {
-				#Custom image for Denis Pushilin
-				#large = "/gfx/leaders/DPR/UaLViJAT-9409.dds"
+				large = "/gfx/leaders/DPR/milchak.dds"
 			}
 		}
         country_leader = {
@@ -47,8 +44,7 @@ characters = {
         name = Vladlen_Tatarskiy
         portraits = {
 			civilian = {
-				#Custom image for Denis Pushilin
-				#large = "/gfx/leaders/DPR/UaLViJAT-9409.dds"
+				large = "/gfx/leaders/DPR/tatar.dds"
 			}
 		}
         country_leader = {
@@ -61,14 +57,14 @@ characters = {
         name = Ivan_Zolo
 		portraits = {
 			civilian = {
-				small = ""
+				small = "/gfx/leaders/DPR/Zolo.dds"
 			}
 		}
         	advisor={
 			cost = 100
 			slot = political_advisor
 			idea_token = Ivan_Zolo
-			allowed = {
+			allowed = {	
 				original_tag = LPR
 			}
 			
@@ -83,7 +79,7 @@ characters = {
         name = Vlad_Badabym
 		portraits = {
 			civilian = {
-				small = ""
+			small = "/gfx/leaders/DPR/vlad_badabym.dds"
 			}
 		}
         	advisor={
@@ -106,7 +102,7 @@ characters = {
         name = Lesem_Podervyanskim
 		portraits = {
 			civilian = {
-				small = ""
+				small = "/gfx/leaders/DPR/lasion.dds"
 			}
 		}
         	advisor={
@@ -128,7 +124,7 @@ characters = {
         name = Javier_Milei
 		portraits = {
 			civilian = {
-				small = ""
+				small = "/gfx/leaders/DPR/anarcho_kapitalista.dds"
 			}
 		}
         	advisor={
@@ -145,7 +141,7 @@ characters = {
 		}
 
     }
-
+	
         Shaman = {
         name = Shaman
 		portraits = {

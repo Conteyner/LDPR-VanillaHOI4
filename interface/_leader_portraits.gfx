@@ -6451,6 +6451,11 @@ spriteTypes = {
 		texturefile = "gfx/leaders/DPR/Kawai_Strelkov.dds"
 	}
 	
+	spriteType = {
+		name = GFX_Penis_Chepyshilin
+		texturefile = "gfx/leaders/DPR/Pushilin.dds"
+	}
+	
 
 	spriteType = {
 		name = GFX_portrait_femboy_hitler
