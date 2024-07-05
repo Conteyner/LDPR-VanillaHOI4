@@ -1,4 +1,4 @@
-version="0.1A Stable"
+version="0.2A Stable"
 tags={
 	"National Focuses"
 	"Map"
@@ -17,4 +17,4 @@ replace_path="history/units"
 replace_path="map/strategicregions"
 picture = "thumbnail.png"
 
-supported_version="1.13.6"
+supported_version="1.14.7"
